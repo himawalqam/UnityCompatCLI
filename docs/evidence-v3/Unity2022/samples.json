@@ -1,0 +1,929 @@
+{
+  "windows-old_mcp": {
+    "response": {
+      "contents": [
+        {
+          "uri": "mcpforunity://editor/windows",
+          "mimeType": "text/plain",
+          "text": "{\"success\":true,\"message\":\"Retrieved list of open editor windows.\",\"error\":null,\"data\":[],\"hint\":null}"
+        }
+      ]
+    },
+    "semantic": [],
+    "rendered": "{\"success\":true,\"message\":\"Retrieved list of open editor windows.\",\"error\":null,\"data\":[],\"hint\":null}",
+    "outputTokens": 25
+  },
+  "windows-oneshot": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "windows-daemon": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "windows-shell": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "windows-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[]"
+        }
+      ],
+      "structuredContent": {
+        "data": []
+      },
+      "isError": false
+    },
+    "semantic": [],
+    "rendered": "[]",
+    "outputTokens": 1
+  },
+  "hierarchy-old_mcp": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":true,\"message\":\"Retrieved hierarchy page for scene ''.\",\"data\":{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}}"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Retrieved hierarchy page for scene ''.",
+        "data": {
+          "scope": "roots",
+          "cursor": 0,
+          "pageSize": 50,
+          "next_cursor": null,
+          "truncated": false,
+          "total": 1,
+          "items": [
+            {
+              "name": "V3PerfCamera",
+              "instanceID": -1272,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "Untagged",
+              "layer": 0,
+              "isStatic": false,
+              "path": "V3PerfCamera",
+              "childCount": 0,
+              "childrenTruncated": false,
+              "childrenCursor": null,
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "Transform",
+                "Camera"
+              ]
+            }
+          ]
+        }
+      },
+      "isError": false
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"success\":true,\"message\":\"Retrieved hierarchy page for scene ''.\",\"data\":{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}}",
+    "outputTokens": 125
+  },
+  "hierarchy-oneshot": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}\n",
+    "outputTokens": 110
+  },
+  "hierarchy-daemon": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}\n",
+    "outputTokens": 110
+  },
+  "hierarchy-shell": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}\n",
+    "outputTokens": 110
+  },
+  "hierarchy-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}"
+        }
+      ],
+      "structuredContent": {
+        "scope": "roots",
+        "cursor": 0,
+        "pageSize": 50,
+        "next_cursor": null,
+        "truncated": false,
+        "total": 1,
+        "items": [
+          {
+            "name": "V3PerfCamera",
+            "instanceID": -1272,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "V3PerfCamera",
+            "childCount": 0,
+            "childrenTruncated": false,
+            "childrenCursor": null,
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform",
+              "Camera"
+            ]
+          }
+        ]
+      },
+      "isError": false
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 1,
+      "items": [
+        {
+          "name": "V3PerfCamera",
+          "instanceID": -1272,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "V3PerfCamera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"V3PerfCamera\",\"instanceID\":-1272,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"V3PerfCamera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\"]}]}",
+    "outputTokens": 110
+  },
+  "full_inspector-old_mcp": {
+    "response": {
+      "contents": [
+        {
+          "uri": "mcpforunity://scene/gameobject/-1272/component/Camera",
+          "mimeType": "text/plain",
+          "text": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.1921568661928177,\"g\":0.3019607961177826,\"b\":0.4745098054409027,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}},\"hint\":null}"
+        }
+      ]
+    },
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.1921568661928177,\"g\":0.3019607961177826,\"b\":0.4745098054409027,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}},\"hint\":null}",
+    "outputTokens": 289
+  },
+  "full_inspector-oneshot": {
+    "response": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.19215686619281769,\"g\":0.30196079611778259,\"b\":0.47450980544090271,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}}\n",
+    "outputTokens": 270
+  },
+  "full_inspector-daemon": {
+    "response": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.19215686619281769,\"g\":0.30196079611778259,\"b\":0.47450980544090271,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}}\n",
+    "outputTokens": 270
+  },
+  "full_inspector-shell": {
+    "response": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.19215686619281769,\"g\":0.30196079611778259,\"b\":0.47450980544090271,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}}\n",
+    "outputTokens": 270
+  },
+  "full_inspector-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.19215686619281769,\"g\":0.30196079611778259,\"b\":0.47450980544090271,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}}"
+        }
+      ],
+      "structuredContent": {
+        "gameObjectID": -1272,
+        "gameObjectName": "V3PerfCamera",
+        "component": {
+          "typeName": "UnityEngine.Camera",
+          "instanceID": -1292,
+          "properties": {
+            "nearClipPlane": 0.30000001192092896,
+            "farClipPlane": 1000.0,
+            "fieldOfView": 60.0,
+            "renderingPath": -1,
+            "actualRenderingPath": 1,
+            "allowHDR": true,
+            "allowMSAA": true,
+            "allowDynamicResolution": false,
+            "forceIntoRenderTexture": false,
+            "orthographicSize": 5.0,
+            "orthographic": false,
+            "opaqueSortMode": 0,
+            "transparencySortMode": 0,
+            "depth": 0.0,
+            "aspect": 1.3333333730697632,
+            "cullingMask": -1,
+            "eventMask": -1,
+            "backgroundColor": {
+              "r": 0.1921568661928177,
+              "g": 0.3019607961177826,
+              "b": 0.4745098054409027,
+              "a": 0.0
+            },
+            "clearFlags": 1,
+            "stereoEnabled": false,
+            "stereoSeparation": 0.02199999988079071,
+            "stereoConvergence": 10.0,
+            "enabled": true,
+            "name": "V3PerfCamera",
+            "tag": "Untagged",
+            "gameObject": {
+              "name": "V3PerfCamera",
+              "instanceID": -1272
+            }
+          }
+        }
+      },
+      "isError": false
+    },
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.19215686619281769,\"g\":0.30196079611778259,\"b\":0.47450980544090271,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}}",
+    "outputTokens": 270
+  },
+  "console-old_mcp": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Retrieved 0 log entries.",
+        "data": []
+      },
+      "isError": false
+    },
+    "semantic": [],
+    "rendered": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}",
+    "outputTokens": 16
+  },
+  "console-oneshot": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-daemon": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-shell": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[]"
+        }
+      ],
+      "structuredContent": {
+        "data": []
+      },
+      "isError": false
+    },
+    "semantic": [],
+    "rendered": "[]",
+    "outputTokens": 1
+  },
+  "four_fields-old_mcp": {
+    "semantic": {
+      "gameObjectID": -1272,
+      "gameObjectName": "V3PerfCamera",
+      "component": {
+        "typeName": "UnityEngine.Camera",
+        "instanceID": -1292,
+        "properties": {
+          "nearClipPlane": 0.30000001192092896,
+          "farClipPlane": 1000.0,
+          "fieldOfView": 60.0,
+          "renderingPath": -1,
+          "actualRenderingPath": 1,
+          "allowHDR": true,
+          "allowMSAA": true,
+          "allowDynamicResolution": false,
+          "forceIntoRenderTexture": false,
+          "orthographicSize": 5.0,
+          "orthographic": false,
+          "opaqueSortMode": 0,
+          "transparencySortMode": 0,
+          "depth": 0.0,
+          "aspect": 1.3333333730697632,
+          "cullingMask": -1,
+          "eventMask": -1,
+          "backgroundColor": {
+            "r": 0.1921568661928177,
+            "g": 0.3019607961177826,
+            "b": 0.4745098054409027,
+            "a": 0.0
+          },
+          "clearFlags": 1,
+          "stereoEnabled": false,
+          "stereoSeparation": 0.02199999988079071,
+          "stereoConvergence": 10.0,
+          "enabled": true,
+          "name": "V3PerfCamera",
+          "tag": "Untagged",
+          "gameObject": {
+            "name": "V3PerfCamera",
+            "instanceID": -1272
+          }
+        }
+      }
+    },
+    "rendered": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":-1272,\"gameObjectName\":\"V3PerfCamera\",\"component\":{\"typeName\":\"UnityEngine.Camera\",\"instanceID\":-1292,\"properties\":{\"nearClipPlane\":0.30000001192092896,\"farClipPlane\":1000.0,\"fieldOfView\":60.0,\"renderingPath\":-1,\"actualRenderingPath\":1,\"allowHDR\":true,\"allowMSAA\":true,\"allowDynamicResolution\":false,\"forceIntoRenderTexture\":false,\"orthographicSize\":5.0,\"orthographic\":false,\"opaqueSortMode\":0,\"transparencySortMode\":0,\"depth\":0.0,\"aspect\":1.3333333730697632,\"cullingMask\":-1,\"eventMask\":-1,\"backgroundColor\":{\"r\":0.1921568661928177,\"g\":0.3019607961177826,\"b\":0.4745098054409027,\"a\":0.0},\"clearFlags\":1,\"stereoEnabled\":false,\"stereoSeparation\":0.02199999988079071,\"stereoConvergence\":10.0,\"enabled\":true,\"name\":\"V3PerfCamera\",\"tag\":\"Untagged\",\"gameObject\":{\"name\":\"V3PerfCamera\",\"instanceID\":-1272}}}},\"hint\":null}",
+    "outputTokens": 289
+  },
+  "four_fields-projected_stdio": {
+    "semantic": {
+      "id": -1292,
+      "type": "UnityEngine.Camera",
+      "fields": {
+        "m_ClearFlags": "Skybox",
+        "m_BackGroundColor": [
+          0.192156866,
+          0.3019608,
+          0.4745098,
+          0.0
+        ],
+        "near clip plane": 0.30000001192092896,
+        "far clip plane": 1000.0
+      },
+      "truncated": false
+    },
+    "rendered": "{\"id\":-1292,\"type\":\"UnityEngine.Camera\",\"fields\":{\"m_ClearFlags\":\"Skybox\",\"m_BackGroundColor\":[0.192156866,0.3019608,0.4745098,0.0],\"near clip plane\":0.30000001192092896,\"far clip plane\":1000.0},\"truncated\":false}",
+    "outputTokens": 76
+  }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "n": 20,
+    "p50": 7.83,
+    "p95": 10.16
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "n": 20,
+    "p50": 50.87,
+    "p95": 56.05
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "n": 20,
+    "p50": 49.91,
+    "p95": 56.8
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "n": 20,
+    "p50": 6.6,
+    "p95": 10.73
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "n": 20,
+    "p50": 7.08,
+    "p95": 9.61
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "n": 20,
+    "p50": 19.11,
+    "p95": 24.49
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "n": 20,
+    "p50": 47.76,
+    "p95": 52.57
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "n": 20,
+    "p50": 47.04,
+    "p95": 53.95
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "n": 20,
+    "p50": 7.32,
+    "p95": 8.84
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "n": 20,
+    "p50": 7.43,
+    "p95": 9.17
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "n": 20,
+    "p50": 7.63,
+    "p95": 10.1
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "n": 20,
+    "p50": 48.44,
+    "p95": 55.6
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "n": 20,
+    "p50": 48.04,
+    "p95": 55.42
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "n": 20,
+    "p50": 6.58,
+    "p95": 8.46
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "n": 20,
+    "p50": 7.49,
+    "p95": 9.08
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "n": 20,
+    "p50": 12.68,
+    "p95": 14.02
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "n": 20,
+    "p50": 47.31,
+    "p95": 50.91
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "n": 20,
+    "p50": 49.91,
+    "p95": 54.47
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "n": 20,
+    "p50": 7.42,
+    "p95": 9.1
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "n": 20,
+    "p50": 6.72,
+    "p95": 10.23
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "n": 20,
+    "p50": 9.11,
+    "p95": 12.46
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "n": 20,
+    "p50": 6.64,
+    "p95": 10.47
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "n": 10,
+    "p50": 814.16,
+    "p95": 3064.19
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "n": 10,
+    "p50": 6.14,
+    "p95": 12.94
+  }
+]

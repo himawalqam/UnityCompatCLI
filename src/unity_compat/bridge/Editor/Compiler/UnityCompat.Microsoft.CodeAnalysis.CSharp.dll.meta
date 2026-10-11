@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c8d5bd94d53477a9f474bbd7236442dc
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  isPreloaded: 0
+  isExplicitlyReferenced: 1
+  validateReferences: 1
+  platformData:
+  - first:
+      Any: 
+    second:
+      enabled: 0
+      settings: {}
+  - first:
+      Editor: Editor
+    second:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+        OS: AnyOS

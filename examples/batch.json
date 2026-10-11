@@ -1,0 +1,5 @@
+[
+  {"command": "manage_gameobject", "params": {"action": "create", "name": "CompatDemoCube", "primitiveType": "Cube", "position": [1, 2, 3]}},
+  {"command": "serialized_inspect", "params": {"target": "CompatDemoCube", "component": "Transform"}},
+  {"command": "project_audit", "params": {"action": "scene"}}
+]

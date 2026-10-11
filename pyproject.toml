@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unity-compat-cli"
+version = "0.3.0"
+description = "Server-free local Unity Editor automation for Unity 2021.3 and newer"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+unity-compat = "unity_compat.cli:main"
+ucl = "unity_compat.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+unity_compat = ["bridge/**/*", "*.json", "bin/win-x64/*"]

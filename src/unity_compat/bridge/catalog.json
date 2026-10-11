@@ -1,0 +1,2393 @@
+[
+  {
+    "name": "agent_find",
+    "kind": "extension",
+    "group": "agent",
+    "description": "Find scene objects by name/path and component type, with bounded output",
+    "source": "Editor/Compat/AgentCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "limit",
+      "query",
+      "type"
+    ],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000,
+          "default": 30
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "agent_hierarchy",
+    "kind": "extension",
+    "group": "agent",
+    "description": "Bounded hierarchy with depth, subtree and component filters",
+    "source": "Editor/Compat/AgentCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "components",
+      "depth",
+      "fields",
+      "limit",
+      "root"
+    ],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "depth": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 64,
+          "default": 2
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000,
+          "default": 80
+        },
+        "components": {
+          "type": "boolean"
+        },
+        "fields": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "agent_inspect",
+    "kind": "extension",
+    "group": "agent",
+    "description": "Read only requested serialized fields; list components when no component is specified",
+    "source": "Editor/Compat/AgentCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "all",
+      "component",
+      "fields",
+      "limit",
+      "max_depth",
+      "path",
+      "types"
+    ],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "component": {
+          "type": "string"
+        },
+        "fields": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+        },
+        "all": {
+          "type": "boolean"
+        },
+        "types": {
+          "type": "boolean"
+        },
+        "max_depth": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 32
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 2000,
+          "default": 80
+        }
+      },
+      "required": [],
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": [
+            "target"
+          ]
+        },
+        {
+          "required": [
+            "path"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "agent_set",
+    "kind": "extension",
+    "group": "agent",
+    "description": "Set a serialized component/asset field with Undo and precondition checking",
+    "source": "Editor/Compat/AgentCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "expect",
+      "property",
+      "value"
+    ],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "path": {
+          "type": "string"
+        },
+        "component": {
+          "type": "string"
+        },
+        "property": {
+          "type": "string"
+        },
+        "value": {},
+        "expect": {}
+      },
+      "required": [
+        "property",
+        "value"
+      ],
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": [
+            "target"
+          ]
+        },
+        {
+          "required": [
+            "path"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "agent_snapshot",
+    "kind": "extension",
+    "group": "agent",
+    "description": "Read hierarchy, windows, selection and Editor state in a single round trip",
+    "source": "Editor/Compat/AgentCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "root": {
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "depth": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 64,
+          "default": 2
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10000,
+          "default": 80
+        },
+        "components": {
+          "type": "boolean"
+        },
+        "fields": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "animation_events",
+    "kind": "extension",
+    "group": "animation",
+    "description": "Read and replace AnimationClip event timelines through Unity APIs",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "get",
+      "set"
+    ],
+    "argumentHints": [
+      "action",
+      "events",
+      "path"
+    ]
+  },
+  {
+    "name": "apply_text_edits",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Apply 1-indexed script text edits with optional SHA precondition",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "asset_bundles",
+    "kind": "extension",
+    "group": "build",
+    "description": "List and assign asset bundle names or build asset bundles",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "build",
+      "list",
+      "set"
+    ],
+    "argumentHints": [
+      "action",
+      "name",
+      "output",
+      "path",
+      "target",
+      "variant"
+    ]
+  },
+  {
+    "name": "asset_importer",
+    "kind": "extension",
+    "group": "project",
+    "description": "Inspect/set serialized asset importer properties, then safely reimport",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "get",
+      "reimport",
+      "set"
+    ],
+    "argumentHints": [
+      "action",
+      "path",
+      "property",
+      "value"
+    ]
+  },
+  {
+    "name": "asset_references",
+    "kind": "extension",
+    "group": "project",
+    "description": "Inspect forward dependencies or find assets referring to an asset/GUID",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "dependencies",
+      "referencers"
+    ],
+    "argumentHints": [
+      "action",
+      "limit",
+      "path",
+      "recursive"
+    ]
+  },
+  {
+    "name": "batch_execute",
+    "kind": "tool",
+    "group": "core",
+    "description": "batch_execute",
+    "source": "Editor/Tools/BatchExecute.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "commands"
+    ]
+  },
+  {
+    "name": "build_targets",
+    "kind": "extension",
+    "group": "build",
+    "description": "List defined build targets with installed support and current selection",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "cli_batch",
+    "kind": "extension",
+    "group": "cli",
+    "description": "Execute sequential commands with per-operation results and stop-on-error",
+    "source": "Editor/Compat/FlowCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "command",
+      "continue_on_error",
+      "operations",
+      "params"
+    ]
+  },
+  {
+    "name": "cli_describe",
+    "kind": "extension",
+    "group": "cli",
+    "description": "Describe one command and its execution metadata",
+    "source": "Editor/Compat/FlowCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "name"
+    ]
+  },
+  {
+    "name": "cli_list",
+    "kind": "extension",
+    "group": "cli",
+    "description": "List all available tools, resources and project extension commands",
+    "source": "Editor/Compat/FlowCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "group"
+    ]
+  },
+  {
+    "name": "cli_poll",
+    "kind": "extension",
+    "group": "cli",
+    "description": "Start and await an upstream build, package, asset-generation or test job",
+    "source": "Editor/Compat/FlowCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "command",
+      "params"
+    ]
+  },
+  {
+    "name": "cli_test_start",
+    "kind": "extension",
+    "group": "testing",
+    "description": "Start a saved-scene test run and return its durable Test Runner job ID",
+    "source": "Editor/Compat/FlowCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "create_script",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Create a C# script from plain text; preserve existing files",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "debug_request_context",
+    "description": "Read native project, transport, profile and version; no secrets",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {},
+      "type": "object"
+    }
+  },
+  {
+    "name": "delete_script",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Delete a script through the Editor asset workflow",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_pause",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Pause Play Mode",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_play",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Request Play Mode; acknowledge before potential domain reload",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_recompile",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Request script compilation; observe session/readiness afterward",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_refresh",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Request AssetDatabase refresh after acknowledging the command",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_screenshot",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Render a scene camera to a PNG; requires a graphics device",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_shutdown",
+    "kind": "extension",
+    "group": "cli",
+    "description": "Close an editor explicitly; refuse unsaved scenes unless discard is true",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "discard"
+    ]
+  },
+  {
+    "name": "editor_status",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Current play/pause/compile/import state",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_step",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Advance one paused Play Mode frame",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "editor_stop",
+    "kind": "extension",
+    "group": "editor",
+    "description": "Request leaving Play Mode; acknowledge before potential domain reload",
+    "source": "Editor/Compat/EditorCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "eval",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Trusted local C# with in-memory Roslyn, cached code and no project/domain reload",
+    "source": "Editor/Compat/FastEval.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "args",
+      "code"
+    ],
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "args": {
+          "type": "object"
+        },
+        "metrics": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "execute_code",
+    "kind": "tool",
+    "group": "scripting_ext",
+    "description": "execute_code",
+    "source": "Editor/Tools/ExecuteCode.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "clear_history",
+      "codedom",
+      "execute",
+      "get_history",
+      "replay",
+      "roslyn"
+    ],
+    "argumentHints": [
+      "action",
+      "code",
+      "compiler",
+      "index",
+      "limit",
+      "safety_checks"
+    ]
+  },
+  {
+    "name": "execute_custom_tool",
+    "kind": "extension",
+    "group": "cli",
+    "description": "Call a discovered project command by name",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "execute_menu_item",
+    "kind": "tool",
+    "group": "core",
+    "description": "execute_menu_item",
+    "source": "Editor/Tools/ExecuteMenuItem.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "menuPath",
+      "menu_path"
+    ]
+  },
+  {
+    "name": "find_gameobjects",
+    "kind": "tool",
+    "group": "core",
+    "description": "find_gameobjects",
+    "source": "Editor/Tools/FindGameObjects.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "includeInactive",
+      "searchInactive",
+      "searchMethod",
+      "searchTerm",
+      "target"
+    ]
+  },
+  {
+    "name": "find_in_file",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Bounded regular-expression search in project Assets",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "generate_image",
+    "kind": "tool",
+    "group": "asset_gen",
+    "description": "generate_image",
+    "source": "Editor/Tools/AssetGen/GenerateImage.cs",
+    "requiresPolling": true,
+    "actionHints": [
+      "cancel",
+      "generate",
+      "list_providers",
+      "remove_background",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "asSprite",
+      "height",
+      "imagePath",
+      "imageUrl",
+      "job_id",
+      "mode",
+      "model",
+      "name",
+      "outputFolder",
+      "prompt",
+      "provider",
+      "transparent",
+      "width"
+    ]
+  },
+  {
+    "name": "generate_model",
+    "kind": "tool",
+    "group": "asset_gen",
+    "description": "generate_model",
+    "source": "Editor/Tools/AssetGen/GenerateModel.cs",
+    "requiresPolling": true,
+    "actionHints": [
+      "cancel",
+      "generate",
+      "list_providers",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "format",
+      "imagePath",
+      "imageUrl",
+      "job_id",
+      "mode",
+      "name",
+      "outputFolder",
+      "prompt",
+      "provider",
+      "targetSize",
+      "texture",
+      "tier"
+    ]
+  },
+  {
+    "name": "get_active_tool",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_active_tool",
+    "source": "Editor/Resources/Editor/ActiveTool.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_cameras",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_cameras",
+    "source": "Editor/Resources/Scene/CamerasResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_editor_state",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_editor_state",
+    "source": "Editor/Resources/Editor/EditorState.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_gameobject",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_gameobject",
+    "source": "Editor/Resources/Scene/GameObjectResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "id",
+      "instanceID",
+      "instance_id"
+    ]
+  },
+  {
+    "name": "get_gameobject_component",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_gameobject_component",
+    "source": "Editor/Resources/Scene/GameObjectResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "component",
+      "componentName",
+      "component_name",
+      "id",
+      "instanceID",
+      "instance_id"
+    ]
+  },
+  {
+    "name": "get_gameobject_components",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_gameobject_components",
+    "source": "Editor/Resources/Scene/GameObjectResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "cursor",
+      "id",
+      "includeProperties",
+      "include_properties",
+      "instanceID",
+      "instance_id",
+      "pageSize",
+      "page_size"
+    ]
+  },
+  {
+    "name": "get_layers",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_layers",
+    "source": "Editor/Resources/Project/Layers.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_menu_items",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_menu_items",
+    "source": "Editor/Resources/MenuItems/GetMenuItems.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_prefab_stage",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_prefab_stage",
+    "source": "Editor/Resources/Editor/GetPrefabStage.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_project_info",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_project_info",
+    "source": "Editor/Resources/Project/ProjectInfo.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_renderer_features",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_renderer_features",
+    "source": "Editor/Resources/Scene/RendererFeaturesResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_rendering_stats",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_rendering_stats",
+    "source": "Editor/Resources/Scene/RenderingStatsResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_selection",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_selection",
+    "source": "Editor/Resources/Editor/Selection.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_sha",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Read a script SHA with the same text convention as apply_text_edits",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_tags",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_tags",
+    "source": "Editor/Resources/Project/Tags.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_test_job",
+    "kind": "tool",
+    "group": "testing",
+    "description": "get_test_job",
+    "source": "Editor/Tools/GetTestJob.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "includeDetails",
+      "includeFailedTests"
+    ]
+  },
+  {
+    "name": "get_tests",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_tests",
+    "source": "Editor/Resources/Tests/GetTests.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_tests_for_mode",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_tests_for_mode",
+    "source": "Editor/Resources/Tests/GetTests.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_tool_states",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_tool_states",
+    "source": "Editor/Resources/Editor/ToolStates.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_volumes",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_volumes",
+    "source": "Editor/Resources/Scene/VolumesResource.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "get_windows",
+    "kind": "resource",
+    "group": "resources",
+    "description": "get_windows",
+    "source": "Editor/Resources/Editor/Windows.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "import_model",
+    "kind": "tool",
+    "group": "asset_gen",
+    "description": "import_model",
+    "source": "Editor/Tools/AssetGen/ImportModel.cs",
+    "requiresPolling": true,
+    "actionHints": [
+      "cancel",
+      "import",
+      "list_providers",
+      "preview",
+      "search",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "categories",
+      "count",
+      "cursor",
+      "downloadable",
+      "job_id",
+      "name",
+      "outputFolder",
+      "query",
+      "targetSize",
+      "uid"
+    ]
+  },
+  {
+    "name": "import_model_file",
+    "kind": "tool",
+    "group": "asset_gen",
+    "description": "import_model_file",
+    "source": "Editor/Tools/AssetGen/ImportModelFile.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "name",
+      "outputFolder",
+      "sourcePath",
+      "targetSize"
+    ]
+  },
+  {
+    "name": "manage_animation",
+    "kind": "tool",
+    "group": "animation",
+    "description": "manage_animation",
+    "source": "Editor/Tools/Animation/ManageAnimation.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "add_blend_tree_child",
+      "add_curve",
+      "add_event",
+      "add_layer",
+      "add_parameter",
+      "add_state",
+      "add_transition",
+      "assign",
+      "create",
+      "create_blend_tree_1d",
+      "create_blend_tree_2d",
+      "create_preset",
+      "crossfade",
+      "get_info",
+      "get_parameter",
+      "play",
+      "remove_event",
+      "remove_layer",
+      "set_curve",
+      "set_enabled",
+      "set_layer_weight",
+      "set_parameter",
+      "set_speed",
+      "set_vector_curve"
+    ],
+    "argumentHints": []
+  },
+  {
+    "name": "manage_asset",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_asset",
+    "source": "Editor/Tools/ManageAsset.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "create",
+      "create_folder",
+      "delete",
+      "duplicate",
+      "get_components",
+      "get_info",
+      "import",
+      "modify",
+      "move",
+      "rename",
+      "search"
+    ],
+    "argumentHints": [
+      "action",
+      "assetType",
+      "asset_type",
+      "destination",
+      "filterDateAfter",
+      "filterType",
+      "generatePreview",
+      "pageNumber",
+      "pageSize",
+      "path",
+      "properties",
+      "searchPattern"
+    ]
+  },
+  {
+    "name": "manage_audio",
+    "kind": "extension",
+    "group": "audio",
+    "description": "Inspect audio sources/clips, assign mixer groups, and play/stop preview sources",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "clips",
+      "list",
+      "play",
+      "set",
+      "stop"
+    ],
+    "argumentHints": [
+      "action",
+      "clip",
+      "group",
+      "loop",
+      "mixer",
+      "spatial_blend",
+      "volume"
+    ]
+  },
+  {
+    "name": "manage_build",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_build",
+    "source": "Editor/Tools/ManageBuild.cs",
+    "requiresPolling": true,
+    "actionHints": [
+      "batch",
+      "build",
+      "cancel",
+      "platform",
+      "profiles",
+      "scenes",
+      "settings",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "activate",
+      "development",
+      "job_id",
+      "options",
+      "output_dir",
+      "output_path",
+      "profile",
+      "profiles",
+      "property",
+      "scenes",
+      "scripting_backend",
+      "subtarget",
+      "target",
+      "targets",
+      "value"
+    ]
+  },
+  {
+    "name": "manage_camera",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_camera",
+    "source": "Editor/Tools/Cameras/ManageCamera.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "add_extension",
+      "create_camera",
+      "ensure_brain",
+      "force_camera",
+      "get_brain_status",
+      "list_cameras",
+      "ping",
+      "release_override",
+      "remove_extension",
+      "screenshot",
+      "screenshot_multiview",
+      "set_aim",
+      "set_blend",
+      "set_body",
+      "set_lens",
+      "set_noise",
+      "set_priority",
+      "set_target"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_components",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_components",
+    "source": "Editor/Tools/ManageComponents.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "action",
+      "componentIndex",
+      "componentProperties",
+      "componentType",
+      "component_index",
+      "component_type",
+      "properties",
+      "property",
+      "searchMethod",
+      "search_method",
+      "target",
+      "value"
+    ]
+  },
+  {
+    "name": "manage_editor",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_editor",
+    "source": "Editor/Tools/ManageEditor.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "add_layer",
+      "add_tag",
+      "deploy_package",
+      "pause",
+      "play",
+      "redo",
+      "remove_layer",
+      "remove_tag",
+      "restore_package",
+      "set_active_tool",
+      "set_quality",
+      "set_resolution",
+      "stop",
+      "undo"
+    ],
+    "argumentHints": [
+      "action",
+      "height",
+      "layerName",
+      "qualityLevel",
+      "tagName",
+      "toolName",
+      "width"
+    ]
+  },
+  {
+    "name": "manage_gameobject",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_gameobject",
+    "source": "Editor/Tools/GameObjects/ManageGameObject.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "create",
+      "delete",
+      "duplicate",
+      "look_at",
+      "modify",
+      "move_relative"
+    ],
+    "argumentHints": [
+      "action",
+      "componentProperties",
+      "layer",
+      "name",
+      "parent",
+      "searchMethod",
+      "tag",
+      "target"
+    ]
+  },
+  {
+    "name": "manage_graphics",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_graphics",
+    "source": "Editor/Tools/Graphics/ManageGraphics.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "bake_cancel",
+      "bake_clear",
+      "bake_create_light_probe_group",
+      "bake_create_reflection_probe",
+      "bake_get_settings",
+      "bake_reflection_probe",
+      "bake_set_probe_positions",
+      "bake_set_settings",
+      "bake_start",
+      "bake_status",
+      "feature_add",
+      "feature_configure",
+      "feature_list",
+      "feature_remove",
+      "feature_reorder",
+      "feature_toggle",
+      "ping",
+      "pipeline_get_info",
+      "pipeline_get_settings",
+      "pipeline_set_quality",
+      "pipeline_set_settings",
+      "skybox_get",
+      "skybox_set_ambient",
+      "skybox_set_fog",
+      "skybox_set_material",
+      "skybox_set_properties",
+      "skybox_set_reflection",
+      "skybox_set_sun",
+      "stats_get",
+      "stats_get_memory",
+      "stats_list_counters",
+      "stats_set_scene_debug",
+      "volume_add_effect",
+      "volume_create",
+      "volume_create_profile",
+      "volume_get_info",
+      "volume_list_effects",
+      "volume_remove_effect",
+      "volume_set_effect",
+      "volume_set_properties"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_lighting",
+    "kind": "extension",
+    "group": "lighting",
+    "description": "Inspect lights/lightmap bake status, start or cancel asynchronous lightmap bakes",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "bake",
+      "cancel",
+      "list",
+      "status"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_material",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_material",
+    "source": "Editor/Tools/ManageMaterial.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "assign_material_to_renderer",
+      "create",
+      "get_material_info",
+      "ping",
+      "set_material_color",
+      "set_material_shader_property",
+      "set_renderer_color"
+    ],
+    "argumentHints": [
+      "action",
+      "color",
+      "materialPath",
+      "mode",
+      "properties",
+      "property",
+      "searchMethod",
+      "shader",
+      "slot",
+      "target",
+      "value"
+    ]
+  },
+  {
+    "name": "manage_navigation",
+    "kind": "extension",
+    "group": "navigation",
+    "description": "Inspect agents, sample NavMesh, calculate paths, and set agent destinations",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "destination",
+      "path",
+      "sample",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "area_mask",
+      "distance",
+      "from",
+      "position",
+      "to"
+    ]
+  },
+  {
+    "name": "manage_packages",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_packages",
+    "source": "Editor/Tools/ManagePackages.cs",
+    "requiresPolling": true,
+    "actionHints": [
+      "add_package",
+      "add_registry",
+      "embed_package",
+      "get_package_info",
+      "list_packages",
+      "list_registries",
+      "ping",
+      "remove_package",
+      "remove_registry",
+      "resolve_packages",
+      "search_packages",
+      "status"
+    ],
+    "argumentHints": [
+      "action",
+      "force",
+      "job_id",
+      "name",
+      "package",
+      "query",
+      "scopes",
+      "url"
+    ]
+  },
+  {
+    "name": "manage_physics",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_physics",
+    "source": "Editor/Tools/Physics/ManagePhysics.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "add_joint",
+      "apply_force",
+      "assign_physics_material",
+      "configure_joint",
+      "configure_physics_material",
+      "configure_rigidbody",
+      "create_physics_material",
+      "get_collision_matrix",
+      "get_rigidbody",
+      "get_settings",
+      "linecast",
+      "overlap",
+      "ping",
+      "raycast",
+      "raycast_all",
+      "remove_joint",
+      "set_collision_matrix",
+      "set_settings",
+      "shapecast",
+      "simulate_step",
+      "validate"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_prefabs",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_prefabs",
+    "source": "Editor/Tools/Prefabs/ManagePrefabs.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "action",
+      "allowOverwrite",
+      "componentProperties",
+      "component_properties",
+      "componentsToAdd",
+      "componentsToRemove",
+      "createChild",
+      "create_child",
+      "deleteChild",
+      "delete_child",
+      "layer",
+      "name",
+      "parent",
+      "path",
+      "position",
+      "prefabPath",
+      "rotation",
+      "saveBeforeClose",
+      "scale",
+      "searchInactive",
+      "setActive",
+      "tag",
+      "target",
+      "unlinkIfInstance"
+    ]
+  },
+  {
+    "name": "manage_probuilder",
+    "kind": "tool",
+    "group": "probuilder",
+    "description": "manage_probuilder",
+    "source": "Editor/Tools/ProBuilder/ManageProBuilder.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "ARCH",
+      "CONE",
+      "CUBE",
+      "CURVEDSTAIR",
+      "CYLINDER",
+      "DOOR",
+      "PIPE",
+      "PLANE",
+      "PRISM",
+      "SPHERE",
+      "STAIR",
+      "TORUS",
+      "append_vertices_to_edge",
+      "auto_smooth",
+      "back",
+      "backward",
+      "bevel_edges",
+      "bottom",
+      "bridge_edges",
+      "center_pivot",
+      "combine_meshes",
+      "connect_elements",
+      "convert_to_probuilder",
+      "create_poly_shape",
+      "create_polygon",
+      "create_shape",
+      "delete_faces",
+      "detach_faces",
+      "down",
+      "duplicate_and_flip",
+      "extrude_edges",
+      "extrude_faces",
+      "flip_normals",
+      "forward",
+      "freeze_transform",
+      "front",
+      "get_mesh_info",
+      "insert_vertex",
+      "left",
+      "merge_faces",
+      "merge_objects",
+      "merge_vertices",
+      "move_vertices",
+      "ping",
+      "repair_mesh",
+      "right",
+      "select_faces",
+      "set_face_color",
+      "set_face_material",
+      "set_face_uvs",
+      "set_pivot",
+      "set_smoothing",
+      "split_vertices",
+      "subdivide",
+      "top",
+      "up",
+      "validate_mesh",
+      "weld_vertices"
+    ],
+    "argumentHints": [
+      "action",
+      "properties",
+      "searchMethod",
+      "target"
+    ]
+  },
+  {
+    "name": "manage_profiler",
+    "kind": "tool",
+    "group": "profiling",
+    "description": "manage_profiler",
+    "source": "Editor/Tools/Profiler/ManageProfiler.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "frame_debugger_disable",
+      "frame_debugger_enable",
+      "frame_debugger_get_events",
+      "get_counters",
+      "get_frame_timing",
+      "get_object_memory",
+      "memory_compare_snapshots",
+      "memory_list_snapshots",
+      "memory_take_snapshot",
+      "ping",
+      "profiler_set_areas",
+      "profiler_start",
+      "profiler_status",
+      "profiler_stop"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_scene",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_scene",
+    "source": "Editor/Tools/ManageScene.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "2d_basic",
+      "3d_basic",
+      "close_scene",
+      "create",
+      "default",
+      "empty",
+      "get_active",
+      "get_build_settings",
+      "get_hierarchy",
+      "get_loaded_scenes",
+      "load",
+      "modify_build_settings",
+      "move_to_scene",
+      "save",
+      "scene_view_frame",
+      "screenshot",
+      "set_active_scene",
+      "validate"
+    ],
+    "argumentHints": [
+      "action",
+      "additive",
+      "autoRepair",
+      "auto_repair",
+      "batch",
+      "buildIndex",
+      "build_index",
+      "camera",
+      "cursor",
+      "fileName",
+      "filename",
+      "includeImage",
+      "includeTransform",
+      "include_image",
+      "include_transform",
+      "loadAdditive",
+      "maxChildrenPerNode",
+      "maxDepth",
+      "maxNodes",
+      "maxResolution",
+      "max_children_per_node",
+      "max_depth",
+      "max_nodes",
+      "max_resolution",
+      "name",
+      "orbitAngles",
+      "orbitDistance",
+      "orbitElevations",
+      "orbitFov",
+      "orbit_angles",
+      "orbit_distance",
+      "orbit_elevations",
+      "orbit_fov",
+      "outputFolder",
+      "output_folder",
+      "pageSize",
+      "page_size",
+      "parent",
+      "path",
+      "removeScene",
+      "remove_scene",
+      "sceneName",
+      "scenePath",
+      "scene_name",
+      "scene_path",
+      "superSize",
+      "super_size",
+      "supersize",
+      "target",
+      "template",
+      "viewPosition",
+      "viewRotation",
+      "viewTarget",
+      "view_position",
+      "view_rotation",
+      "view_target"
+    ]
+  },
+  {
+    "name": "manage_script",
+    "kind": "tool",
+    "group": "core",
+    "description": "manage_script",
+    "source": "Editor/Tools/ManageScript.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "anchor_delete",
+      "anchor_insert",
+      "anchor_replace",
+      "apply_text_edits",
+      "basic",
+      "comprehensive",
+      "create",
+      "delete",
+      "delete_class",
+      "delete_method",
+      "edit",
+      "get_sha",
+      "insert_method",
+      "read",
+      "replace_class",
+      "replace_method",
+      "standard",
+      "strict",
+      "update",
+      "validate"
+    ],
+    "argumentHints": [
+      "action",
+      "contents",
+      "contentsEncoded",
+      "edits",
+      "encodedContents",
+      "level",
+      "name",
+      "namespace",
+      "options",
+      "path",
+      "precondition_sha256",
+      "scriptType",
+      "validationLevel"
+    ]
+  },
+  {
+    "name": "manage_script_capabilities",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Describe script editing and Roslyn validation support",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "manage_scriptable_object",
+    "kind": "tool",
+    "group": "scripting_ext",
+    "description": "manage_scriptable_object",
+    "source": "Editor/Tools/ManageScriptableObject.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "array_resize",
+      "set"
+    ],
+    "argumentHints": [
+      "action",
+      "assetName",
+      "asset_name",
+      "dryRun",
+      "dry_run",
+      "folderPath",
+      "folder_path",
+      "overwrite",
+      "patches",
+      "target",
+      "typeName",
+      "type_name"
+    ]
+  },
+  {
+    "name": "manage_selection",
+    "kind": "extension",
+    "group": "editing",
+    "description": "Read, set or frame editor selection, including inactive scene objects",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "clear",
+      "frame",
+      "get",
+      "set"
+    ],
+    "argumentHints": [
+      "action"
+    ]
+  },
+  {
+    "name": "manage_shader",
+    "kind": "tool",
+    "group": "vfx",
+    "description": "manage_shader",
+    "source": "Editor/Tools/ManageShader.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "create",
+      "delete",
+      "read",
+      "update"
+    ],
+    "argumentHints": [
+      "action",
+      "contents",
+      "contentsEncoded",
+      "encodedContents",
+      "name",
+      "path"
+    ]
+  },
+  {
+    "name": "manage_terrain",
+    "kind": "extension",
+    "group": "terrain",
+    "description": "Inspect terrain, create TerrainData, and read/write bounded height maps",
+    "source": "Editor/Compat/GameCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "create",
+      "get_heights",
+      "list",
+      "set_heights"
+    ],
+    "argumentHints": [
+      "action",
+      "height",
+      "heights",
+      "name",
+      "path",
+      "resolution",
+      "size",
+      "width",
+      "x",
+      "y"
+    ]
+  },
+  {
+    "name": "manage_texture",
+    "kind": "tool",
+    "group": "vfx",
+    "description": "manage_texture",
+    "source": "Editor/Tools/ManageTexture.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "apply_gradient",
+      "apply_noise",
+      "apply_pattern",
+      "brick",
+      "checkerboard",
+      "create",
+      "create_sprite",
+      "delete",
+      "dots",
+      "grid",
+      "modify",
+      "set_import_settings",
+      "stripes",
+      "stripes_diag",
+      "stripes_h",
+      "stripes_v"
+    ],
+    "argumentHints": [
+      "action",
+      "as_sprite",
+      "fillColor",
+      "gradientAngle",
+      "gradientType",
+      "height",
+      "imagePath",
+      "importSettings",
+      "import_settings",
+      "noiseScale",
+      "octaves",
+      "palette",
+      "path",
+      "pattern",
+      "patternSize",
+      "pixels",
+      "setPixels",
+      "spriteSettings",
+      "width"
+    ]
+  },
+  {
+    "name": "manage_tools",
+    "description": "Manage this native MCP session's visible command groups; call tools/list afterward",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "enum": [
+            "list_groups",
+            "activate",
+            "deactivate",
+            "sync",
+            "reset"
+          ],
+          "type": "string"
+        },
+        "group": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "action"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "manage_ui",
+    "kind": "tool",
+    "group": "ui",
+    "description": "manage_ui",
+    "source": "Editor/Tools/ManageUI.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "attach_ui_document",
+      "background-color",
+      "backgroundcolor",
+      "border-radius",
+      "borderradius",
+      "clearcolor",
+      "cleardepthstencil",
+      "color",
+      "colorclearvalue",
+      "create",
+      "create_panel_settings",
+      "delete",
+      "detach_ui_document",
+      "display",
+      "dynamicatlassettings",
+      "fallbackdpi",
+      "flex-grow",
+      "flex-shrink",
+      "flexgrow",
+      "flexshrink",
+      "font-size",
+      "fontsize",
+      "get_visual_tree",
+      "height",
+      "link_stylesheet",
+      "list",
+      "margin-bottom",
+      "margin-left",
+      "margin-right",
+      "margin-top",
+      "marginbottom",
+      "marginleft",
+      "marginright",
+      "margintop",
+      "match",
+      "modify_visual_element",
+      "opacity",
+      "padding-bottom",
+      "padding-left",
+      "padding-right",
+      "padding-top",
+      "paddingbottom",
+      "paddingleft",
+      "paddingright",
+      "paddingtop",
+      "ping",
+      "read",
+      "referencedpi",
+      "referenceresolution",
+      "render_ui",
+      "scalemode",
+      "screenmatchmode",
+      "sortingorder",
+      "targetdisplay",
+      "themestylesheet",
+      "update",
+      "update_panel_settings",
+      "visibility",
+      "width"
+    ],
+    "argumentHints": [
+      "action",
+      "contents",
+      "contentsEncoded",
+      "contents_encoded",
+      "elementName",
+      "element_name",
+      "encodedContents",
+      "encoded_contents",
+      "fileName",
+      "file_name",
+      "filterType",
+      "filter_type",
+      "height",
+      "includeImage",
+      "include_image",
+      "maxResolution",
+      "max_depth",
+      "max_resolution",
+      "outputFolder",
+      "output_folder",
+      "pageNumber",
+      "pageSize",
+      "page_number",
+      "page_size",
+      "panelSettings",
+      "panel_settings",
+      "path",
+      "scale_mode",
+      "sort_order",
+      "source_asset",
+      "stylesheet",
+      "target",
+      "text",
+      "tooltip",
+      "visible",
+      "width"
+    ]
+  },
+  {
+    "name": "manage_vfx",
+    "kind": "tool",
+    "group": "vfx",
+    "description": "manage_vfx",
+    "source": "Editor/Tools/Vfx/ManageVFX.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "add_burst",
+      "add_position",
+      "assign_asset",
+      "clear",
+      "clear_bursts",
+      "create",
+      "create_arc",
+      "create_asset",
+      "create_bezier",
+      "create_circle",
+      "create_line",
+      "emit",
+      "enable_module",
+      "get_info",
+      "list_assets",
+      "list_templates",
+      "pause",
+      "play",
+      "reinit",
+      "restart",
+      "send_event",
+      "set_bool",
+      "set_color",
+      "set_color_over_lifetime",
+      "set_curve",
+      "set_emission",
+      "set_float",
+      "set_gradient",
+      "set_int",
+      "set_main",
+      "set_material",
+      "set_mesh",
+      "set_noise",
+      "set_playback_speed",
+      "set_position",
+      "set_positions",
+      "set_properties",
+      "set_renderer",
+      "set_seed",
+      "set_shape",
+      "set_size_over_lifetime",
+      "set_texture",
+      "set_time",
+      "set_vector2",
+      "set_vector3",
+      "set_vector4",
+      "set_velocity_over_lifetime",
+      "set_width",
+      "stop"
+    ],
+    "argumentHints": []
+  },
+  {
+    "name": "project_audit",
+    "kind": "extension",
+    "group": "project",
+    "description": "Audit loaded scenes for missing scripts/references; inspect duplicate GUIDs and missing .meta files",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "assets",
+      "scene"
+    ],
+    "argumentHints": [
+      "action",
+      "limit"
+    ]
+  },
+  {
+    "name": "project_settings",
+    "kind": "extension",
+    "group": "project",
+    "description": "Get/set public PlayerSettings, QualitySettings, EditorSettings, Physics, Time and RenderSettings properties",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "get",
+      "list",
+      "set"
+    ],
+    "argumentHints": [
+      "action",
+      "property",
+      "section",
+      "value"
+    ]
+  },
+  {
+    "name": "read_console",
+    "kind": "tool",
+    "group": "core",
+    "description": "read_console",
+    "source": "Editor/Tools/ReadConsole.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "clear",
+      "detailed",
+      "get",
+      "json",
+      "plain"
+    ],
+    "argumentHints": [
+      "action",
+      "count",
+      "cursor",
+      "filterText",
+      "format",
+      "includeStacktrace",
+      "pageSize"
+    ]
+  },
+  {
+    "name": "refresh_unity",
+    "kind": "tool",
+    "group": "core",
+    "description": "refresh_unity",
+    "source": "Editor/Tools/RefreshUnity.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "run_tests",
+    "kind": "tool",
+    "group": "testing",
+    "description": "run_tests",
+    "source": "Editor/Tools/RunTests.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "assemblyNames",
+      "categoryNames",
+      "groupNames",
+      "includeDetails",
+      "includeFailedTests",
+      "initTimeout",
+      "testNames"
+    ]
+  },
+  {
+    "name": "scene_snapshot",
+    "kind": "extension",
+    "group": "inspection",
+    "description": "Capture scene object transforms and components for comparison or automation",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "limit"
+    ]
+  },
+  {
+    "name": "script_apply_edits",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Apply structured class/method/anchor script edits",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  },
+  {
+    "name": "serialized_inspect",
+    "kind": "extension",
+    "group": "inspection",
+    "description": "Read serialized properties of a GameObject component or asset without lossy YAML editing",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "component",
+      "limit",
+      "path",
+      "prefix"
+    ]
+  },
+  {
+    "name": "set_active_instance",
+    "description": "Select an absolute Unity project path for this MCP session; ports and legacy hashes are unsupported",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "instance": {
+          "type": "string",
+          "description": "Absolute project path"
+        }
+      },
+      "required": [
+        "instance"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "type_query",
+    "kind": "extension",
+    "group": "inspection",
+    "description": "Discover loaded types, component types and public members for reflection-driven tooling",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": [
+      "components_only",
+      "limit",
+      "members",
+      "query"
+    ]
+  },
+  {
+    "name": "undo_history",
+    "kind": "extension",
+    "group": "editing",
+    "description": "Perform editor undo/redo or create and collapse named undo groups",
+    "source": "Editor/Compat/ProjectCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "begin",
+      "collapse",
+      "redo",
+      "status",
+      "undo"
+    ],
+    "argumentHints": [
+      "action",
+      "group",
+      "name"
+    ]
+  },
+  {
+    "name": "unity_docs",
+    "description": "Fetch official ScriptReference, Manual or package documentation; get_doc/get_manual/get_package_doc/lookup; bounded text and exact candidate URLs",
+    "kind": "frontend",
+    "group": "docs",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "type": "string"
+        },
+        "class_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "member_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "slug": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "package": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "pkg_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "query": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "queries": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "action"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "unity_reflect",
+    "kind": "tool",
+    "group": "docs",
+    "description": "unity_reflect",
+    "source": "Editor/Tools/UnityReflect.cs",
+    "requiresPolling": false,
+    "actionHints": [
+      "all",
+      "get_member",
+      "get_type",
+      "packages",
+      "project",
+      "search",
+      "unity"
+    ],
+    "argumentHints": [
+      "action",
+      "class_name",
+      "member_name",
+      "query",
+      "scope"
+    ]
+  },
+  {
+    "name": "validate_script",
+    "kind": "extension",
+    "group": "scripting",
+    "description": "Roslyn syntax/semantic diagnostics without changing or loading the script",
+    "source": "Editor/Compat/ServerCommands.cs",
+    "requiresPolling": false,
+    "actionHints": [],
+    "argumentHints": []
+  }
+]

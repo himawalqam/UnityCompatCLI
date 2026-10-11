@@ -1,0 +1,224 @@
+{
+  "agent_hierarchy": {
+    "type": "object",
+    "properties": {
+      "root": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "depth": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 64,
+        "default": 2
+      },
+      "limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10000,
+        "default": 80
+      },
+      "components": {
+        "type": "boolean"
+      },
+      "fields": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "agent_snapshot": {
+    "type": "object",
+    "properties": {
+      "root": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "depth": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 64,
+        "default": 2
+      },
+      "limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10000,
+        "default": 80
+      },
+      "components": {
+        "type": "boolean"
+      },
+      "fields": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "agent_inspect": {
+    "type": "object",
+    "properties": {
+      "target": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "path": {
+        "type": "string"
+      },
+      "component": {
+        "type": "string"
+      },
+      "fields": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ],
+        "description": "Comma-separated serialized names or an array; nested.path and parent.* are supported"
+      },
+      "all": {
+        "type": "boolean"
+      },
+      "types": {
+        "type": "boolean"
+      },
+      "max_depth": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 32
+      },
+      "limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 2000,
+        "default": 80
+      }
+    },
+    "required": [],
+    "additionalProperties": false,
+    "anyOf": [
+      {
+        "required": [
+          "target"
+        ]
+      },
+      {
+        "required": [
+          "path"
+        ]
+      }
+    ]
+  },
+  "agent_set": {
+    "type": "object",
+    "properties": {
+      "target": {
+        "type": [
+          "integer",
+          "string"
+        ]
+      },
+      "path": {
+        "type": "string"
+      },
+      "component": {
+        "type": "string"
+      },
+      "property": {
+        "type": "string"
+      },
+      "value": {},
+      "expect": {}
+    },
+    "required": [
+      "property",
+      "value"
+    ],
+    "additionalProperties": false,
+    "anyOf": [
+      {
+        "required": [
+          "target"
+        ]
+      },
+      {
+        "required": [
+          "path"
+        ]
+      }
+    ]
+  },
+  "agent_find": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "limit": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10000,
+        "default": 30
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "eval": {
+    "type": "object",
+    "properties": {
+      "code": {
+        "type": "string"
+      },
+      "args": {
+        "type": "object"
+      },
+      "metrics": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "code"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "microsoft.codeanalysis.common",
+    "version": "3.8.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/3.8.0/microsoft.codeanalysis.common.3.8.0.nupkg",
+    "sha256": "dc6f6f49cfe01c7ec55a03b248b4eeb75f9e11a7f71faeaa70f3af34f2cec78a",
+    "license": "MIT"
+  },
+  {
+    "name": "microsoft.codeanalysis.csharp",
+    "version": "3.8.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/3.8.0/microsoft.codeanalysis.csharp.3.8.0.nupkg",
+    "sha256": "8bfaf757f368fd5cea989956c691a88abbe56c90db04f6bf38d66dcd8af1b9ce",
+    "license": "MIT"
+  },
+  {
+    "name": "system.collections.immutable",
+    "version": "5.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg",
+    "sha256": "19dc122232cc334b957c4e7a55448b54d8295b407ffe809e4858fcfe14a56ccf",
+    "license": "MIT"
+  },
+  {
+    "name": "system.reflection.metadata",
+    "version": "5.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/5.0.0/system.reflection.metadata.5.0.0.nupkg",
+    "sha256": "5a8f8c8aa85c3fd750e8db851ab413c3a8696c9391170a7e4c1353ab6ca11a9f",
+    "license": "MIT"
+  },
+  {
+    "name": "system.memory",
+    "version": "4.5.4",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
+    "sha256": "dec0847f33b8823e4260672d97d657411461c00ada3107ec7bbcb32a845eeb91",
+    "license": "MIT"
+  },
+  {
+    "name": "system.buffers",
+    "version": "4.5.1",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.buffers/4.5.1/system.buffers.4.5.1.nupkg",
+    "sha256": "c30b3dd2c7e2f4cee4b823d692fd42118309b42ab1f5007f923d329a5b0d6b12",
+    "license": "MIT"
+  },
+  {
+    "name": "system.runtime.compilerservices.unsafe",
+    "version": "4.7.1",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg",
+    "sha256": "52fca80d5f0ed286371cf1b519b039e9855dbf04c611f8d8479816d4eec82b85",
+    "license": "MIT"
+  },
+  {
+    "name": "system.text.encoding.codepages",
+    "version": "4.5.1",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg",
+    "sha256": "3c8864bf9f485e3ca2b9e7dd84ac52f6141f1303bd61646e36e769a39dc741fc",
+    "license": "MIT"
+  },
+  {
+    "name": "mono.cecil",
+    "version": "0.11.6",
+    "url": "https://api.nuget.org/v3-flatcontainer/mono.cecil/0.11.6/mono.cecil.0.11.6.nupkg",
+    "sha256": "d2a23832aaa948ba9a01acc42b5726e34c5f995958f1b30d45c0e7c70b3a72d5",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "project": "D:\\unityProject\\Beach-Tank",
+  "unity": "2022.3.62f3c1",
+  "rounds": 20,
+  "evalRounds": 10,
+  "tokenizer": "o200k_base, text content only",
+  "nativeBytes": 6980608,
+  "sceneBefore": {
+    "name": "BeachMainMenu",
+    "path": "Assets/Scenes/BeachMainMenu.unity",
+    "buildIndex": 0,
+    "isDirty": false,
+    "isLoaded": true,
+    "rootCount": 5
+  },
+  "sceneAfter": {
+    "name": "BeachMainMenu",
+    "path": "Assets/Scenes/BeachMainMenu.unity",
+    "buildIndex": 0,
+    "isDirty": false,
+    "isLoaded": true,
+    "rootCount": 5
+  },
+  "editorMode": "GUI",
+  "projectedFieldEquivalence": true,
+  "note": "Warm Editor; alternating routes, 1 warmup excluded. Python subprocess wall time includes process startup, no PowerShell and no Agent/LLM inference/billing. New eval cache is reported separately from new snippets. GUI requests are affected by Editor tick scheduling."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "UnityCompat.Editor",
+  "rootNamespace": "UnityCompat.Editor",
+  "references": ["UnityCompatVendor.Editor", "UnityCompatVendor.Runtime"],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": true,
+  "precompiledReferences": ["Newtonsoft.Json.dll", "UnityCompat.Microsoft.CodeAnalysis.dll", "UnityCompat.Microsoft.CodeAnalysis.CSharp.dll", "UnityCompat.System.Collections.Immutable.dll", "UnityCompat.System.Reflection.Metadata.dll", "UnityCompat.System.Memory.dll", "UnityCompat.System.Buffers.dll", "UnityCompat.System.Runtime.CompilerServices.Unsafe.dll", "UnityCompat.System.Text.Encoding.CodePages.dll"],
+  "autoReferenced": true
+}

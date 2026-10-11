@@ -1,0 +1,10 @@
+[
+  {
+    "check": "failing EditMode suite exits 6",
+    "passed": true
+  },
+  {
+    "check": "domain reload returns INTERRUPTED without replay",
+    "passed": true
+  }
+]

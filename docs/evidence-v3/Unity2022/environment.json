@@ -1,0 +1,27 @@
+{
+  "project": "D:\\unityTools\\UnityCompatCLI\\validation\\Unity2022",
+  "unity": "2022.3.62f3c1",
+  "rounds": 20,
+  "evalRounds": 10,
+  "tokenizer": "o200k_base, text content only",
+  "nativeBytes": 6979584,
+  "sceneBefore": {
+    "name": "",
+    "path": "",
+    "buildIndex": -1,
+    "isDirty": true,
+    "isLoaded": true,
+    "rootCount": 1
+  },
+  "sceneAfter": {
+    "name": "",
+    "path": "",
+    "buildIndex": -1,
+    "isDirty": true,
+    "isLoaded": true,
+    "rootCount": 1
+  },
+  "editorMode": "batchmode with graphics",
+  "projectedFieldEquivalence": true,
+  "note": "Warm Editor; alternating routes, 1 warmup excluded. Python subprocess wall time includes process startup, no PowerShell and no Agent/LLM inference/billing. New eval cache is reported separately from new snippets. GUI requests are affected by Editor tick scheduling."
+}

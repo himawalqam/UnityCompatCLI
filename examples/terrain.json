@@ -1,0 +1,7 @@
+{
+  "action": "create",
+  "path": "Assets/CompatTerrain.asset",
+  "name": "CompatTerrain",
+  "resolution": 129,
+  "size": [100, 20, 100]
+}

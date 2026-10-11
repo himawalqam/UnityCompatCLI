@@ -1,0 +1,8 @@
+# One Editor round trip; no hand-written JSON.
+create cube --name ExampleCube --position 1,2,3
+add ExampleCube AudioSource
+set ExampleCube AudioSource m_Volume 0.25 --expect 1
+inspect ExampleCube --component AudioSource --fields m_Volume
+set ExampleCube Transform m_LocalPosition 3,1,4
+inspect ExampleCube --component Transform --fields m_LocalPosition
+delete ExampleCube

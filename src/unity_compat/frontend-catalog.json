@@ -1,0 +1,189 @@
+[
+  {
+    "name": "debug_request_context",
+    "description": "Read native project, transport, profile and version; no secrets",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {},
+      "type": "object"
+    }
+  },
+  {
+    "name": "manage_tools",
+    "description": "Manage this native MCP session's visible command groups; call tools/list afterward",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "enum": [
+            "list_groups",
+            "activate",
+            "deactivate",
+            "sync",
+            "reset"
+          ],
+          "type": "string"
+        },
+        "group": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "action"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "set_active_instance",
+    "description": "Select an absolute Unity project path for this MCP session; ports and legacy hashes are unsupported",
+    "kind": "frontend",
+    "group": "cli",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "instance": {
+          "type": "string",
+          "description": "Absolute project path"
+        }
+      },
+      "required": [
+        "instance"
+      ],
+      "type": "object"
+    }
+  },
+  {
+    "name": "unity_docs",
+    "description": "Fetch official ScriptReference, Manual or package documentation; get_doc/get_manual/get_package_doc/lookup; bounded text and exact candidate URLs",
+    "kind": "frontend",
+    "group": "docs",
+    "source": "native/Ucl/Frontend.cs",
+    "inputSchema": {
+      "additionalProperties": false,
+      "properties": {
+        "action": {
+          "type": "string"
+        },
+        "class_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "member_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "slug": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "package": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "pkg_version": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "query": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "queries": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        }
+      },
+      "required": [
+        "action"
+      ],
+      "type": "object"
+    }
+  }
+]

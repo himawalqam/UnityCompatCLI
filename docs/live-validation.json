@@ -1,0 +1,179 @@
+{
+  "unity": "2022.3.62f3c1",
+  "commandCount": 74,
+  "checks": [
+    {
+      "command": "cli_list",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "fixture_echo",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "not_a_command",
+      "success": false,
+      "expectedSuccess": false
+    },
+    {
+      "command": "manage_gameobject",
+      "success": false,
+      "expectedSuccess": false
+    },
+    {
+      "command": "execute_code",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_gameobject",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "scene_snapshot",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "serialized_inspect",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_selection",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "project_settings",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "project_settings",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "project_settings",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "project_audit",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "project_audit",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "type_query",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_audio",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_lighting",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_navigation",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_terrain",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_terrain",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "manage_terrain",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "asset_references",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "asset_references",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "asset_importer",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "asset_bundles",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "cli_batch",
+      "success": false,
+      "expectedSuccess": false
+    },
+    {
+      "command": "cli_batch",
+      "success": false,
+      "expectedSuccess": false
+    },
+    {
+      "check": "stale-session rejected",
+      "success": true
+    },
+    {
+      "check": "8 concurrent commands",
+      "success": true
+    },
+    {
+      "check": "queued cancellation",
+      "success": true
+    },
+    {
+      "check": "expired request",
+      "success": true
+    },
+    {
+      "command": "scene_snapshot",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "read_console",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "execute_code",
+      "success": true,
+      "expectedSuccess": true
+    },
+    {
+      "command": "cli_poll",
+      "success": true,
+      "expectedSuccess": true
+    }
+  ],
+  "testProject": "D:\\unityTools\\UnityCompatCLI\\validation\\Unity2022",
+  "externalServer": false
+}

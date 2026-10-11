@@ -1,0 +1,2762 @@
+[
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 0,
+    "ms": 6.687899935059249
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 0,
+    "ms": 10.732599999755621
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 0,
+    "ms": 56.799500016495585
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 0,
+    "ms": 54.713199962861836
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 7.221299922093749
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 7.844400010071695
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 1,
+    "ms": 48.69089997373521
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 1,
+    "ms": 51.17009999230504
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 1,
+    "ms": 5.012099980376661
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 1,
+    "ms": 9.225500049069524
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 2,
+    "ms": 9.72690002527088
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 2,
+    "ms": 10.940800071693957
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 2,
+    "ms": 48.22280001826584
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 2,
+    "ms": 50.41609995532781
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 6.51159998960793
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 6.578299915418029
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 3,
+    "ms": 43.04670006968081
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 3,
+    "ms": 49.51200005598366
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 3,
+    "ms": 7.001799996942282
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 3,
+    "ms": 5.701399990357459
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 4,
+    "ms": 6.137699936516583
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 4,
+    "ms": 8.7975999340415
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 4,
+    "ms": 46.592599945142865
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 4,
+    "ms": 54.77980000432581
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 6.865300005301833
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 6.903100060299039
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 5,
+    "ms": 46.322499983944
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 5,
+    "ms": 50.316000008024275
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 5,
+    "ms": 6.03449996560812
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 5,
+    "ms": 7.148799952119589
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 6,
+    "ms": 8.79930006340146
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 6,
+    "ms": 7.475599995814264
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 6,
+    "ms": 51.188900019042194
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 6,
+    "ms": 55.98110007122159
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 9.286300046369433
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 9.932199958711863
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 7,
+    "ms": 49.74759998731315
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 7,
+    "ms": 49.16299995966256
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 7,
+    "ms": 5.00469992402941
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 7,
+    "ms": 8.018699940294027
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 8,
+    "ms": 6.114099989645183
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 8,
+    "ms": 5.890000029467046
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 8,
+    "ms": 49.031300004571676
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 8,
+    "ms": 56.04589998256415
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 6.911000004038215
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 6.220900104381144
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 9,
+    "ms": 49.172000028193
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 9,
+    "ms": 53.55449998751283
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 9,
+    "ms": 6.281499983742833
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 9,
+    "ms": 6.196000031195581
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 10,
+    "ms": 8.286399999633431
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 10,
+    "ms": 7.875200011767447
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 10,
+    "ms": 46.12539999652654
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 10,
+    "ms": 51.46180000156164
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 10,
+    "ms": 8.811399922706187
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 11,
+    "ms": 7.856799988076091
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 11,
+    "ms": 52.675899933092296
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 11,
+    "ms": 47.633400070481
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 11,
+    "ms": 8.040799992159009
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 11,
+    "ms": 7.018500007688999
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 12,
+    "ms": 8.678300073370337
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 12,
+    "ms": 7.182300090789795
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 12,
+    "ms": 47.964700032025576
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 12,
+    "ms": 56.03659991174936
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 12,
+    "ms": 10.160000063478947
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 13,
+    "ms": 7.821100065484643
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 13,
+    "ms": 52.38540004938841
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 13,
+    "ms": 56.86530005186796
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 13,
+    "ms": 6.379299913533032
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 13,
+    "ms": 9.610599954612553
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 14,
+    "ms": 5.81690005492419
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 14,
+    "ms": 6.823999923653901
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 14,
+    "ms": 53.694200003519654
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 14,
+    "ms": 48.075900063849986
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 14,
+    "ms": 9.913499932736158
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 15,
+    "ms": 6.57389999832958
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 15,
+    "ms": 47.86920000333339
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 15,
+    "ms": 55.55320007260889
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 15,
+    "ms": 6.230199942365289
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 15,
+    "ms": 7.28520005941391
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 16,
+    "ms": 6.390499998815358
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 16,
+    "ms": 8.350599906407297
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 16,
+    "ms": 55.02490000799298
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 16,
+    "ms": 59.36020007357001
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 16,
+    "ms": 10.247700032778084
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 17,
+    "ms": 8.269599988125265
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 17,
+    "ms": 51.33019993081689
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 17,
+    "ms": 49.429900012910366
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 17,
+    "ms": 5.378499976359308
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 17,
+    "ms": 7.217700011096895
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 18,
+    "ms": 6.8036000011488795
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 18,
+    "ms": 5.809599999338388
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 18,
+    "ms": 46.23660002835095
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 18,
+    "ms": 45.93199992086738
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 18,
+    "ms": 8.261700044386089
+  },
+  {
+    "case": "windows",
+    "route": "old_mcp",
+    "round": 19,
+    "ms": 7.680699927732348
+  },
+  {
+    "case": "windows",
+    "route": "oneshot",
+    "round": 19,
+    "ms": 49.766500014811754
+  },
+  {
+    "case": "windows",
+    "route": "daemon",
+    "round": 19,
+    "ms": 50.68689992185682
+  },
+  {
+    "case": "windows",
+    "route": "shell",
+    "round": 19,
+    "ms": 3.7824000464752316
+  },
+  {
+    "case": "windows",
+    "route": "stdio",
+    "round": 19,
+    "ms": 6.848699995316565
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 0,
+    "ms": 8.227900019846857
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 0,
+    "ms": 8.843099931254983
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 0,
+    "ms": 52.0132000092417
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 0,
+    "ms": 45.59350002091378
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 19.295300007797778
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 20.812999922782183
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 1,
+    "ms": 48.11820003669709
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 1,
+    "ms": 48.73589996714145
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 1,
+    "ms": 4.669399932026863
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 1,
+    "ms": 8.56230000499636
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 2,
+    "ms": 7.33079994097352
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 2,
+    "ms": 8.623900008387864
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 2,
+    "ms": 53.95359999965876
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 2,
+    "ms": 47.92219994124025
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 19.343100022524595
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 17.728499951772392
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 3,
+    "ms": 45.26899999473244
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 3,
+    "ms": 48.603200004436076
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 3,
+    "ms": 5.721100023947656
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 3,
+    "ms": 6.265099975280464
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 4,
+    "ms": 7.899700081907213
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 4,
+    "ms": 6.425400031730533
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 4,
+    "ms": 45.977599918842316
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 4,
+    "ms": 50.71039998438209
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 19.881899934262037
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 24.492800002917647
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 5,
+    "ms": 56.50990002322942
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 5,
+    "ms": 52.63980000745505
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 5,
+    "ms": 8.153399918228388
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 5,
+    "ms": 6.518099922686815
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 6,
+    "ms": 4.865200025960803
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 6,
+    "ms": 7.8180000418797135
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 6,
+    "ms": 42.250100057572126
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 6,
+    "ms": 46.77000001538545
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 16.58039994072169
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 18.93459993880242
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 7,
+    "ms": 52.566800033673644
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 7,
+    "ms": 54.5555999269709
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 7,
+    "ms": 4.582799971103668
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 7,
+    "ms": 6.912600016221404
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 8,
+    "ms": 10.912499972619116
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 8,
+    "ms": 11.072499910369515
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 8,
+    "ms": 49.88539998885244
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 8,
+    "ms": 50.37269997410476
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 54.553399910219014
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 17.11400004569441
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 9,
+    "ms": 46.60259990487248
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 9,
+    "ms": 46.809100080281496
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 9,
+    "ms": 7.366699981503189
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 9,
+    "ms": 5.574299953877926
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 10,
+    "ms": 8.903400041162968
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 10,
+    "ms": 5.957699962891638
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 10,
+    "ms": 46.370600000955164
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 10,
+    "ms": 47.863700077869
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 10,
+    "ms": 17.851600074209273
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 11,
+    "ms": 21.762900054454803
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 11,
+    "ms": 49.54589996486902
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 11,
+    "ms": 47.78559994883835
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 11,
+    "ms": 3.993600024841726
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 11,
+    "ms": 7.45560007635504
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 12,
+    "ms": 5.474200006574392
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 12,
+    "ms": 7.8093999763950706
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 12,
+    "ms": 47.05460008699447
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 12,
+    "ms": 46.92100000102073
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 12,
+    "ms": 17.643500003032386
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 13,
+    "ms": 17.210599966347218
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 13,
+    "ms": 50.283399992622435
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 13,
+    "ms": 43.238600017502904
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 13,
+    "ms": 4.247500095516443
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 13,
+    "ms": 6.821200018748641
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 14,
+    "ms": 8.204400073736906
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 14,
+    "ms": 8.450700086541474
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 14,
+    "ms": 45.38180003874004
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 14,
+    "ms": 50.300999893806875
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 14,
+    "ms": 20.3273999504745
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 15,
+    "ms": 17.287899972870946
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 15,
+    "ms": 45.87780009023845
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 15,
+    "ms": 46.77710006944835
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 15,
+    "ms": 6.802899995818734
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 15,
+    "ms": 7.870999979786575
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 16,
+    "ms": 9.17400000616908
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 16,
+    "ms": 8.485500002279878
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 16,
+    "ms": 46.4038000209257
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 16,
+    "ms": 47.653499990701675
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 16,
+    "ms": 19.525700015947223
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 17,
+    "ms": 19.605100038461387
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 17,
+    "ms": 44.56329997628927
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 17,
+    "ms": 51.22050002682954
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 17,
+    "ms": 6.077100057154894
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 17,
+    "ms": 7.3951000813394785
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 18,
+    "ms": 7.008800050243735
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 18,
+    "ms": 7.3376999935135245
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 18,
+    "ms": 47.03139991033822
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 18,
+    "ms": 44.810199993662536
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 18,
+    "ms": 17.54499995149672
+  },
+  {
+    "case": "hierarchy",
+    "route": "old_mcp",
+    "round": 19,
+    "ms": 18.025900004431605
+  },
+  {
+    "case": "hierarchy",
+    "route": "oneshot",
+    "round": 19,
+    "ms": 44.69230002723634
+  },
+  {
+    "case": "hierarchy",
+    "route": "daemon",
+    "round": 19,
+    "ms": 44.83030003029853
+  },
+  {
+    "case": "hierarchy",
+    "route": "shell",
+    "round": 19,
+    "ms": 7.307499996386468
+  },
+  {
+    "case": "hierarchy",
+    "route": "stdio",
+    "round": 19,
+    "ms": 7.527900044806302
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 0,
+    "ms": 8.182000019587576
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 0,
+    "ms": 8.459000033326447
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 0,
+    "ms": 54.67320000752807
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 0,
+    "ms": 49.146899953484535
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 9.07609995920211
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 7.50429998151958
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 1,
+    "ms": 47.93529992457479
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 1,
+    "ms": 50.16320000868291
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 1,
+    "ms": 6.163700018078089
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 1,
+    "ms": 7.7124000526964664
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 2,
+    "ms": 7.889700005762279
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 2,
+    "ms": 6.1778000090271235
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 2,
+    "ms": 54.783100029453635
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 2,
+    "ms": 54.11460006143898
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 6.263199960812926
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 7.758899941109121
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 3,
+    "ms": 48.93930000253022
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 3,
+    "ms": 48.3269999967888
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 3,
+    "ms": 6.215099943801761
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 3,
+    "ms": 7.099799928255379
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 4,
+    "ms": 8.707399945706129
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 4,
+    "ms": 7.760799955576658
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 4,
+    "ms": 49.82219997327775
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 4,
+    "ms": 55.42529991362244
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 6.646699970588088
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 7.55019998177886
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 5,
+    "ms": 45.25699990335852
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 5,
+    "ms": 45.940899988636374
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 5,
+    "ms": 4.836500040255487
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 5,
+    "ms": 9.077000082470477
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 6,
+    "ms": 5.553700029850006
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 6,
+    "ms": 6.685399916023016
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 6,
+    "ms": 45.694799977354705
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 6,
+    "ms": 46.91629996523261
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 9.004099993035197
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 6.535200052894652
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 7,
+    "ms": 45.23899999912828
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 7,
+    "ms": 45.769999967888
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 7,
+    "ms": 6.375199998728931
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 7,
+    "ms": 8.882399997673929
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 8,
+    "ms": 6.710299989208579
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 8,
+    "ms": 14.054300030693412
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 8,
+    "ms": 55.424600024707615
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 8,
+    "ms": 49.79499999899417
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 7.2101999539881945
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 7.69379991106689
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 9,
+    "ms": 44.96810003183782
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 9,
+    "ms": 45.91480002272874
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 9,
+    "ms": 6.007799995131791
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 9,
+    "ms": 6.5469000255689025
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 10,
+    "ms": 9.704599971882999
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 10,
+    "ms": 8.459399919956923
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 10,
+    "ms": 45.57730001397431
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 10,
+    "ms": 74.400799931027
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 10,
+    "ms": 9.85120004042983
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 11,
+    "ms": 10.09880006313324
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 11,
+    "ms": 51.237500039860606
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 11,
+    "ms": 43.52069995366037
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 11,
+    "ms": 7.977699977345765
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 11,
+    "ms": 6.852699909359217
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 12,
+    "ms": 6.915799924172461
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 12,
+    "ms": 6.47320004645735
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 12,
+    "ms": 52.211000001989305
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 12,
+    "ms": 46.81450000498444
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 12,
+    "ms": 10.959699982777238
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 13,
+    "ms": 6.719999946653843
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 13,
+    "ms": 46.89019999932498
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 13,
+    "ms": 46.93890002090484
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 13,
+    "ms": 8.147999993525445
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 13,
+    "ms": 7.141700014472008
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 14,
+    "ms": 7.578300079330802
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 14,
+    "ms": 7.388700032606721
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 14,
+    "ms": 47.4659000756219
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 14,
+    "ms": 43.85229991748929
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 14,
+    "ms": 6.734900060109794
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 15,
+    "ms": 9.485100046731532
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 15,
+    "ms": 42.43020003195852
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 15,
+    "ms": 44.76039996370673
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 15,
+    "ms": 4.319800063967705
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 15,
+    "ms": 5.194300087168813
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 16,
+    "ms": 7.3157999431714416
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 16,
+    "ms": 7.191700045950711
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 16,
+    "ms": 47.757199965417385
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 16,
+    "ms": 55.59550004545599
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 16,
+    "ms": 7.559700054116547
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 17,
+    "ms": 9.283099905587733
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 17,
+    "ms": 54.39409997779876
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 17,
+    "ms": 60.284300008788705
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 17,
+    "ms": 5.1957000978291035
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 17,
+    "ms": 7.764799986034632
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 18,
+    "ms": 7.392800063826144
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 18,
+    "ms": 7.284800056368113
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 18,
+    "ms": 49.606199958361685
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 18,
+    "ms": 44.46919995825738
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 18,
+    "ms": 7.1208999725058675
+  },
+  {
+    "case": "full_inspector",
+    "route": "old_mcp",
+    "round": 19,
+    "ms": 8.935599937103689
+  },
+  {
+    "case": "full_inspector",
+    "route": "oneshot",
+    "round": 19,
+    "ms": 50.865800003521144
+  },
+  {
+    "case": "full_inspector",
+    "route": "daemon",
+    "round": 19,
+    "ms": 49.07960002310574
+  },
+  {
+    "case": "full_inspector",
+    "route": "shell",
+    "round": 19,
+    "ms": 6.471999920904636
+  },
+  {
+    "case": "full_inspector",
+    "route": "stdio",
+    "round": 19,
+    "ms": 7.945599965751171
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 0,
+    "ms": 12.477300013415515
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 0,
+    "ms": 9.102000040002167
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 0,
+    "ms": 52.818299969658256
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 0,
+    "ms": 49.2073999485001
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 13.553399941883981
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 15.649199951440096
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 1,
+    "ms": 47.98330005723983
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 1,
+    "ms": 47.85890004131943
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 1,
+    "ms": 8.245199918746948
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 1,
+    "ms": 6.859299959614873
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 2,
+    "ms": 4.563600057736039
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 2,
+    "ms": 5.88339997921139
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 2,
+    "ms": 45.92479998245835
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 2,
+    "ms": 43.595499941147864
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 13.22640001308173
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 12.961100088432431
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 3,
+    "ms": 44.95750006753951
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 3,
+    "ms": 54.46520005352795
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 3,
+    "ms": 7.032299996353686
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 3,
+    "ms": 6.442400044761598
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 4,
+    "ms": 6.674600066617131
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 4,
+    "ms": 7.8041000524535775
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 4,
+    "ms": 57.57830000948161
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 4,
+    "ms": 49.65189995709807
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 13.02479999139905
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 12.466999934986234
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 5,
+    "ms": 47.33770003076643
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 5,
+    "ms": 48.11479989439249
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 5,
+    "ms": 8.580500027164817
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 5,
+    "ms": 8.501599892042577
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 6,
+    "ms": 7.762599969282746
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 6,
+    "ms": 8.329699980095029
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 6,
+    "ms": 51.830300013534725
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 6,
+    "ms": 47.15770005714148
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 14.01589997112751
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 11.25880004838109
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 7,
+    "ms": 50.905599957332015
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 7,
+    "ms": 51.21170007623732
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 7,
+    "ms": 6.945699919015169
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 7,
+    "ms": 10.23489993531257
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 8,
+    "ms": 6.0567999025806785
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 8,
+    "ms": 6.462799967266619
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 8,
+    "ms": 47.89109993726015
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 8,
+    "ms": 47.28489997796714
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 12.177999946288764
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 12.365699978545308
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 9,
+    "ms": 50.23990001063794
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 9,
+    "ms": 49.85269997268915
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 9,
+    "ms": 3.974099992774427
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 9,
+    "ms": 5.961699993349612
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 10,
+    "ms": 5.2498000441119075
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 10,
+    "ms": 6.205699988640845
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 10,
+    "ms": 45.314099988900125
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 10,
+    "ms": 45.26169993914664
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 10,
+    "ms": 11.710399994626641
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 11,
+    "ms": 13.576099998317659
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 11,
+    "ms": 50.94519990961999
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 11,
+    "ms": 48.653700039722025
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 11,
+    "ms": 4.322899971157312
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 11,
+    "ms": 5.187300033867359
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 12,
+    "ms": 7.04799999948591
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 12,
+    "ms": 8.200200041756034
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 12,
+    "ms": 51.56260007061064
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 12,
+    "ms": 44.79750001337379
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 12,
+    "ms": 12.696799938566983
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 13,
+    "ms": 12.36549997702241
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 13,
+    "ms": 49.20140001922846
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 13,
+    "ms": 51.39029992278665
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 13,
+    "ms": 8.10890004504472
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 13,
+    "ms": 4.636900033801794
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 14,
+    "ms": 7.552900002337992
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 14,
+    "ms": 9.25849995110184
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 14,
+    "ms": 53.86999994516373
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 14,
+    "ms": 48.23019995819777
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 14,
+    "ms": 12.401900021359324
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 15,
+    "ms": 13.627500040456653
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 15,
+    "ms": 47.83519997727126
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 15,
+    "ms": 49.967599916271865
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 15,
+    "ms": 3.5279999719932675
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 15,
+    "ms": 6.460099946707487
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 16,
+    "ms": 6.203099968843162
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 16,
+    "ms": 8.468000101856887
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 16,
+    "ms": 50.45560002326965
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 16,
+    "ms": 43.24999998789281
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 16,
+    "ms": 12.912900070659816
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 17,
+    "ms": 9.224899928085506
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 17,
+    "ms": 42.670900002121925
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 17,
+    "ms": 45.30200001318008
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 17,
+    "ms": 3.864500089548528
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 17,
+    "ms": 9.12659999448806
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 18,
+    "ms": 6.797099951654673
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 18,
+    "ms": 8.39920004364103
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 18,
+    "ms": 44.52680004760623
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 18,
+    "ms": 44.140700018033385
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 18,
+    "ms": 12.661000015214086
+  },
+  {
+    "case": "console",
+    "route": "old_mcp",
+    "round": 19,
+    "ms": 8.845499949529767
+  },
+  {
+    "case": "console",
+    "route": "oneshot",
+    "round": 19,
+    "ms": 43.94759994465858
+  },
+  {
+    "case": "console",
+    "route": "daemon",
+    "round": 19,
+    "ms": 41.46169999148697
+  },
+  {
+    "case": "console",
+    "route": "shell",
+    "round": 19,
+    "ms": 5.166799994185567
+  },
+  {
+    "case": "console",
+    "route": "stdio",
+    "round": 19,
+    "ms": 6.768300081603229
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 0,
+    "ms": 9.730700054205954
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 11.299600009806454
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 9.733899962157011
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 1,
+    "ms": 4.294399986974895
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 2,
+    "ms": 8.380599902011454
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 8.463500067591667
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 7.778999977745116
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 3,
+    "ms": 5.104499985463917
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 4,
+    "ms": 8.391000097617507
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 10.177600081078708
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 12.457400094717741
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 5,
+    "ms": 5.6362999603152275
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 6,
+    "ms": 8.509800070896745
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 10.071800090372562
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 7.166699972003698
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 7,
+    "ms": 5.63139992300421
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 8,
+    "ms": 8.371099946089089
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 8.921200060285628
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 6.985200103372335
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 9,
+    "ms": 4.038000013679266
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 10,
+    "ms": 11.875399970449507
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 10,
+    "ms": 13.312599970959127
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 11,
+    "ms": 11.70459995046258
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 11,
+    "ms": 6.169300060719252
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 12,
+    "ms": 7.119000074453652
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 12,
+    "ms": 9.302000049501657
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 13,
+    "ms": 7.03889993019402
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 13,
+    "ms": 4.7651000786572695
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 14,
+    "ms": 9.75780002772808
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 14,
+    "ms": 9.323499980382621
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 15,
+    "ms": 8.831599960103631
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 15,
+    "ms": 3.861399949528277
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 16,
+    "ms": 7.28489994071424
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 16,
+    "ms": 8.214800036512315
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 17,
+    "ms": 6.52489997446537
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 17,
+    "ms": 5.531699978746474
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 18,
+    "ms": 10.472299996763468
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 18,
+    "ms": 9.79650008957833
+  },
+  {
+    "case": "four_fields",
+    "route": "old_mcp",
+    "round": 19,
+    "ms": 6.134199909865856
+  },
+  {
+    "case": "four_fields",
+    "route": "projected_stdio",
+    "round": 19,
+    "ms": 4.944800049997866
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 0,
+    "ms": 12.935300008393824
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 0,
+    "ms": 3064.1874000430107
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 1,
+    "ms": 800.2015999518335
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 1,
+    "ms": 4.5291000278666615
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 2,
+    "ms": 8.909800089895725
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 2,
+    "ms": 783.807700034231
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 3,
+    "ms": 802.6127000339329
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 3,
+    "ms": 6.1475998954847455
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 4,
+    "ms": 6.138700060546398
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 4,
+    "ms": 947.5910000037402
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 5,
+    "ms": 867.4042000202462
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 5,
+    "ms": 6.878199987113476
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 6,
+    "ms": 8.962299907580018
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 6,
+    "ms": 793.7846999848261
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 7,
+    "ms": 842.1067000599578
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 7,
+    "ms": 3.428200026974082
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 8,
+    "ms": 4.418399999849498
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 8,
+    "ms": 825.7019000593573
+  },
+  {
+    "case": "eval_cached",
+    "route": "old_mcp",
+    "round": 9,
+    "ms": 800.4334000870585
+  },
+  {
+    "case": "eval_cached",
+    "route": "roslyn_cached",
+    "round": 9,
+    "ms": 5.284599959850311
+  }
+]

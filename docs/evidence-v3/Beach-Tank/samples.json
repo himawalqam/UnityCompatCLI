@@ -1,0 +1,4625 @@
+{
+  "windows-old_mcp": {
+    "response": {
+      "contents": [
+        {
+          "uri": "mcpforunity://editor/windows",
+          "mimeType": "text/plain",
+          "text": "{\"success\":true,\"message\":\"Retrieved list of open editor windows.\",\"error\":null,\"data\":[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}],\"hint\":null}"
+        }
+      ]
+    },
+    "semantic": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "rendered": "{\"success\":true,\"message\":\"Retrieved list of open editor windows.\",\"error\":null,\"data\":[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}],\"hint\":null}",
+    "outputTokens": 410
+  },
+  "windows-oneshot": {
+    "response": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "semantic": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "rendered": "[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}]\n",
+    "outputTokens": 386
+  },
+  "windows-daemon": {
+    "response": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "semantic": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "rendered": "[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}]\n",
+    "outputTokens": 386
+  },
+  "windows-shell": {
+    "response": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "semantic": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "rendered": "[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}]\n",
+    "outputTokens": 386
+  },
+  "windows-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}]"
+        }
+      ],
+      "structuredContent": {
+        "data": [
+          {
+            "title": "MCP for Unity",
+            "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+            "isFocused": true,
+            "position": {
+              "x": 405.333344,
+              "y": 40.6666679,
+              "width": 500.0,
+              "height": 546.3334
+            },
+            "instanceID": -6798
+          },
+          {
+            "title": "Game",
+            "typeName": "UnityEditor.GameView",
+            "isFocused": false,
+            "position": {
+              "x": 0.0,
+              "y": 230.666672,
+              "width": 650.3333,
+              "height": 400.3333
+            },
+            "instanceID": 42636
+          },
+          {
+            "title": "Scene",
+            "typeName": "UnityEditor.SceneView",
+            "isFocused": false,
+            "position": {
+              "x": 0.0,
+              "y": 72.66667,
+              "width": 650.3333,
+              "height": 137.0
+            },
+            "instanceID": 42638
+          },
+          {
+            "title": "Hierarchy",
+            "typeName": "UnityEditor.SceneHierarchyWindow",
+            "isFocused": false,
+            "position": {
+              "x": 651.3334,
+              "y": 72.66667,
+              "width": 190.0,
+              "height": 558.3333
+            },
+            "instanceID": 42640
+          },
+          {
+            "title": "Project",
+            "typeName": "UnityEditor.ProjectBrowser",
+            "isFocused": false,
+            "position": {
+              "x": 843.3334,
+              "y": 72.66667,
+              "width": 155.333374,
+              "height": 558.3333
+            },
+            "instanceID": 42642
+          },
+          {
+            "title": "Inspector",
+            "typeName": "UnityEditor.InspectorWindow",
+            "isFocused": false,
+            "position": {
+              "x": 1029.33337,
+              "y": 72.66667,
+              "width": 249.666626,
+              "height": 558.3333
+            },
+            "instanceID": 42644
+          },
+          {
+            "title": "Console",
+            "typeName": "UnityEditor.ConsoleWindow",
+            "isFocused": false,
+            "position": {
+              "x": 1000.66669,
+              "y": 72.66667,
+              "width": 278.3333,
+              "height": 558.3333
+            },
+            "instanceID": 42646
+          }
+        ]
+      },
+      "isError": false
+    },
+    "semantic": [
+      {
+        "title": "MCP for Unity",
+        "typeName": "MCPForUnity.Editor.Windows.MCPForUnityEditorWindow",
+        "isFocused": true,
+        "position": {
+          "x": 405.333344,
+          "y": 40.6666679,
+          "width": 500.0,
+          "height": 546.3334
+        },
+        "instanceID": -6798
+      },
+      {
+        "title": "Game",
+        "typeName": "UnityEditor.GameView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 230.666672,
+          "width": 650.3333,
+          "height": 400.3333
+        },
+        "instanceID": 42636
+      },
+      {
+        "title": "Scene",
+        "typeName": "UnityEditor.SceneView",
+        "isFocused": false,
+        "position": {
+          "x": 0.0,
+          "y": 72.66667,
+          "width": 650.3333,
+          "height": 137.0
+        },
+        "instanceID": 42638
+      },
+      {
+        "title": "Hierarchy",
+        "typeName": "UnityEditor.SceneHierarchyWindow",
+        "isFocused": false,
+        "position": {
+          "x": 651.3334,
+          "y": 72.66667,
+          "width": 190.0,
+          "height": 558.3333
+        },
+        "instanceID": 42640
+      },
+      {
+        "title": "Project",
+        "typeName": "UnityEditor.ProjectBrowser",
+        "isFocused": false,
+        "position": {
+          "x": 843.3334,
+          "y": 72.66667,
+          "width": 155.333374,
+          "height": 558.3333
+        },
+        "instanceID": 42642
+      },
+      {
+        "title": "Inspector",
+        "typeName": "UnityEditor.InspectorWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1029.33337,
+          "y": 72.66667,
+          "width": 249.666626,
+          "height": 558.3333
+        },
+        "instanceID": 42644
+      },
+      {
+        "title": "Console",
+        "typeName": "UnityEditor.ConsoleWindow",
+        "isFocused": false,
+        "position": {
+          "x": 1000.66669,
+          "y": 72.66667,
+          "width": 278.3333,
+          "height": 558.3333
+        },
+        "instanceID": 42646
+      }
+    ],
+    "rendered": "[{\"title\":\"MCP for Unity\",\"typeName\":\"MCPForUnity.Editor.Windows.MCPForUnityEditorWindow\",\"isFocused\":true,\"position\":{\"x\":405.333344,\"y\":40.6666679,\"width\":500.0,\"height\":546.3334},\"instanceID\":-6798},{\"title\":\"Game\",\"typeName\":\"UnityEditor.GameView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":230.666672,\"width\":650.3333,\"height\":400.3333},\"instanceID\":42636},{\"title\":\"Scene\",\"typeName\":\"UnityEditor.SceneView\",\"isFocused\":false,\"position\":{\"x\":0.0,\"y\":72.66667,\"width\":650.3333,\"height\":137.0},\"instanceID\":42638},{\"title\":\"Hierarchy\",\"typeName\":\"UnityEditor.SceneHierarchyWindow\",\"isFocused\":false,\"position\":{\"x\":651.3334,\"y\":72.66667,\"width\":190.0,\"height\":558.3333},\"instanceID\":42640},{\"title\":\"Project\",\"typeName\":\"UnityEditor.ProjectBrowser\",\"isFocused\":false,\"position\":{\"x\":843.3334,\"y\":72.66667,\"width\":155.333374,\"height\":558.3333},\"instanceID\":42642},{\"title\":\"Inspector\",\"typeName\":\"UnityEditor.InspectorWindow\",\"isFocused\":false,\"position\":{\"x\":1029.33337,\"y\":72.66667,\"width\":249.666626,\"height\":558.3333},\"instanceID\":42644},{\"title\":\"Console\",\"typeName\":\"UnityEditor.ConsoleWindow\",\"isFocused\":false,\"position\":{\"x\":1000.66669,\"y\":72.66667,\"width\":278.3333,\"height\":558.3333},\"instanceID\":42646}]",
+    "outputTokens": 386
+  },
+  "hierarchy-old_mcp": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":true,\"message\":\"Retrieved hierarchy page for scene 'BeachMainMenu'.\",\"data\":{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}}"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Retrieved hierarchy page for scene 'BeachMainMenu'.",
+        "data": {
+          "scope": "roots",
+          "cursor": 0,
+          "pageSize": 50,
+          "next_cursor": null,
+          "truncated": false,
+          "total": 5,
+          "items": [
+            {
+              "name": "Main Camera",
+              "instanceID": 36022,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "MainCamera",
+              "layer": 0,
+              "isStatic": false,
+              "path": "Main Camera",
+              "childCount": 0,
+              "childrenTruncated": false,
+              "childrenCursor": null,
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "Transform",
+                "Camera",
+                "AudioListener",
+                "UniversalAdditionalCameraData"
+              ]
+            },
+            {
+              "name": "Lobby Sun",
+              "instanceID": 32538,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "Untagged",
+              "layer": 0,
+              "isStatic": false,
+              "path": "Lobby Sun",
+              "childCount": 0,
+              "childrenTruncated": false,
+              "childrenCursor": null,
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "Transform",
+                "Light",
+                "UniversalAdditionalLightData"
+              ]
+            },
+            {
+              "name": "BeachLobbyUI",
+              "instanceID": 31696,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "Untagged",
+              "layer": 0,
+              "isStatic": false,
+              "path": "BeachLobbyUI",
+              "childCount": 4,
+              "childrenTruncated": true,
+              "childrenCursor": "0",
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "RectTransform",
+                "Canvas",
+                "CanvasScaler",
+                "GraphicRaycaster",
+                "BeachMainMenu",
+                "BeachRewardedAds",
+                "BeachShopUI",
+                "BeachSceneLoader",
+                "BeachMobilePanelLayout",
+                "BeachCharacterProfileUI"
+              ]
+            },
+            {
+              "name": "EventSystem",
+              "instanceID": 34686,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "Untagged",
+              "layer": 0,
+              "isStatic": false,
+              "path": "EventSystem",
+              "childCount": 0,
+              "childrenTruncated": false,
+              "childrenCursor": null,
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "Transform",
+                "EventSystem",
+                "StandaloneInputModule"
+              ]
+            },
+            {
+              "name": "Coastal Soundscape",
+              "instanceID": 35846,
+              "activeSelf": true,
+              "activeInHierarchy": true,
+              "tag": "Untagged",
+              "layer": 0,
+              "isStatic": false,
+              "path": "Coastal Soundscape",
+              "childCount": 13,
+              "childrenTruncated": true,
+              "childrenCursor": "0",
+              "childrenPageSizeDefault": 200,
+              "componentTypes": [
+                "Transform",
+                "BeachAudio"
+              ]
+            }
+          ]
+        }
+      },
+      "isError": false
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"success\":true,\"message\":\"Retrieved hierarchy page for scene 'BeachMainMenu'.\",\"data\":{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}}",
+    "outputTokens": 475
+  },
+  "hierarchy-oneshot": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}\n",
+    "outputTokens": 456
+  },
+  "hierarchy-daemon": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}\n",
+    "outputTokens": 456
+  },
+  "hierarchy-shell": {
+    "response": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}\n",
+    "outputTokens": 456
+  },
+  "hierarchy-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}"
+        }
+      ],
+      "structuredContent": {
+        "scope": "roots",
+        "cursor": 0,
+        "pageSize": 50,
+        "next_cursor": null,
+        "truncated": false,
+        "total": 5,
+        "items": [
+          {
+            "name": "Main Camera",
+            "instanceID": 36022,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "MainCamera",
+            "layer": 0,
+            "isStatic": false,
+            "path": "Main Camera",
+            "childCount": 0,
+            "childrenTruncated": false,
+            "childrenCursor": null,
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform",
+              "Camera",
+              "AudioListener",
+              "UniversalAdditionalCameraData"
+            ]
+          },
+          {
+            "name": "Lobby Sun",
+            "instanceID": 32538,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "Lobby Sun",
+            "childCount": 0,
+            "childrenTruncated": false,
+            "childrenCursor": null,
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform",
+              "Light",
+              "UniversalAdditionalLightData"
+            ]
+          },
+          {
+            "name": "BeachLobbyUI",
+            "instanceID": 31696,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "BeachLobbyUI",
+            "childCount": 4,
+            "childrenTruncated": true,
+            "childrenCursor": "0",
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "RectTransform",
+              "Canvas",
+              "CanvasScaler",
+              "GraphicRaycaster",
+              "BeachMainMenu",
+              "BeachRewardedAds",
+              "BeachShopUI",
+              "BeachSceneLoader",
+              "BeachMobilePanelLayout",
+              "BeachCharacterProfileUI"
+            ]
+          },
+          {
+            "name": "EventSystem",
+            "instanceID": 34686,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "EventSystem",
+            "childCount": 0,
+            "childrenTruncated": false,
+            "childrenCursor": null,
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform",
+              "EventSystem",
+              "StandaloneInputModule"
+            ]
+          },
+          {
+            "name": "Coastal Soundscape",
+            "instanceID": 35846,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "Coastal Soundscape",
+            "childCount": 13,
+            "childrenTruncated": true,
+            "childrenCursor": "0",
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform",
+              "BeachAudio"
+            ]
+          }
+        ]
+      },
+      "isError": false
+    },
+    "semantic": {
+      "scope": "roots",
+      "cursor": 0,
+      "pageSize": 50,
+      "next_cursor": null,
+      "truncated": false,
+      "total": 5,
+      "items": [
+        {
+          "name": "Main Camera",
+          "instanceID": 36022,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "MainCamera",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Main Camera",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Camera",
+            "AudioListener",
+            "UniversalAdditionalCameraData"
+          ]
+        },
+        {
+          "name": "Lobby Sun",
+          "instanceID": 32538,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Lobby Sun",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "Light",
+            "UniversalAdditionalLightData"
+          ]
+        },
+        {
+          "name": "BeachLobbyUI",
+          "instanceID": 31696,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "BeachLobbyUI",
+          "childCount": 4,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "RectTransform",
+            "Canvas",
+            "CanvasScaler",
+            "GraphicRaycaster",
+            "BeachMainMenu",
+            "BeachRewardedAds",
+            "BeachShopUI",
+            "BeachSceneLoader",
+            "BeachMobilePanelLayout",
+            "BeachCharacterProfileUI"
+          ]
+        },
+        {
+          "name": "EventSystem",
+          "instanceID": 34686,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "EventSystem",
+          "childCount": 0,
+          "childrenTruncated": false,
+          "childrenCursor": null,
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "EventSystem",
+            "StandaloneInputModule"
+          ]
+        },
+        {
+          "name": "Coastal Soundscape",
+          "instanceID": 35846,
+          "activeSelf": true,
+          "activeInHierarchy": true,
+          "tag": "Untagged",
+          "layer": 0,
+          "isStatic": false,
+          "path": "Coastal Soundscape",
+          "childCount": 13,
+          "childrenTruncated": true,
+          "childrenCursor": "0",
+          "childrenPageSizeDefault": 200,
+          "componentTypes": [
+            "Transform",
+            "BeachAudio"
+          ]
+        }
+      ]
+    },
+    "rendered": "{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":50,\"next_cursor\":null,\"truncated\":false,\"total\":5,\"items\":[{\"name\":\"Main Camera\",\"instanceID\":36022,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"MainCamera\",\"layer\":0,\"isStatic\":false,\"path\":\"Main Camera\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Camera\",\"AudioListener\",\"UniversalAdditionalCameraData\"]},{\"name\":\"Lobby Sun\",\"instanceID\":32538,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Lobby Sun\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"Light\",\"UniversalAdditionalLightData\"]},{\"name\":\"BeachLobbyUI\",\"instanceID\":31696,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"BeachLobbyUI\",\"childCount\":4,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"RectTransform\",\"Canvas\",\"CanvasScaler\",\"GraphicRaycaster\",\"BeachMainMenu\",\"BeachRewardedAds\",\"BeachShopUI\",\"BeachSceneLoader\",\"BeachMobilePanelLayout\",\"BeachCharacterProfileUI\"]},{\"name\":\"EventSystem\",\"instanceID\":34686,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"EventSystem\",\"childCount\":0,\"childrenTruncated\":false,\"childrenCursor\":null,\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"EventSystem\",\"StandaloneInputModule\"]},{\"name\":\"Coastal Soundscape\",\"instanceID\":35846,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"Coastal Soundscape\",\"childCount\":13,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\",\"BeachAudio\"]}]}",
+    "outputTokens": 456
+  },
+  "full_inspector-old_mcp": {
+    "response": {
+      "contents": [
+        {
+          "uri": "mcpforunity://scene/gameobject/31696/component/BeachMainMenu",
+          "mimeType": "text/plain",
+          "text": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}},\"hint\":null}"
+        }
+      ]
+    },
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}},\"hint\":null}",
+    "outputTokens": 898
+  },
+  "full_inspector-oneshot": {
+    "response": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}}\n",
+    "outputTokens": 879
+  },
+  "full_inspector-daemon": {
+    "response": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}}\n",
+    "outputTokens": 879
+  },
+  "full_inspector-shell": {
+    "response": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}}\n",
+    "outputTokens": 879
+  },
+  "full_inspector-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}}"
+        }
+      ],
+      "structuredContent": {
+        "gameObjectID": 31696,
+        "gameObjectName": "BeachLobbyUI",
+        "component": {
+          "typeName": "BeachMainMenu",
+          "instanceID": 31700,
+          "properties": {
+            "Profile": {
+              "unlockedChapter": 1,
+              "selectedCharacter": "casual",
+              "controls": [],
+              "mouseSensitivity": 1.0,
+              "touchSensitivity": 1.0,
+              "aimSensitivity": 0.75,
+              "invertLookY": false,
+              "dualFire": false,
+              "tutorialCompleted": false,
+              "musicVolume": 0.550000011920929,
+              "effectsVolume": 0.800000011920929,
+              "checkpoints": [],
+              "NeedsOwnershipMigration": false
+            },
+            "Progress": null,
+            "Characters": "Assets/Gameplay/BeachCharacters.asset",
+            "characters": "Assets/Gameplay/BeachCharacters.asset",
+            "ads": {
+              "name": "BeachLobbyUI",
+              "instanceID": 31698
+            },
+            "layoutEditor": {
+              "name": "ControlLayoutPanel",
+              "instanceID": 31636
+            },
+            "home": {
+              "name": "Home",
+              "instanceID": 35330
+            },
+            "characterPanel": {
+              "name": "CharacterPanel",
+              "instanceID": 34664
+            },
+            "adPanel": {
+              "name": "AdPlaceholderPanel",
+              "instanceID": 34534
+            },
+            "wallet": {
+              "name": "Wallet",
+              "instanceID": 33628
+            },
+            "chapterDetail": {
+              "name": "ChapterDetail",
+              "instanceID": 33154
+            },
+            "status": {
+              "name": "SaveStatus",
+              "instanceID": 34200
+            },
+            "characterDetail": {
+              "name": "Detail",
+              "instanceID": 33948
+            },
+            "adDetail": {
+              "name": "Detail",
+              "instanceID": 34784
+            },
+            "startButton": {
+              "name": "StartGame",
+              "instanceID": 33672
+            },
+            "layoutButton": {
+              "name": "Controls",
+              "instanceID": 35040
+            },
+            "charactersButton": {
+              "name": "Characters",
+              "instanceID": 31856
+            },
+            "closeCharacters": {
+              "name": "Close",
+              "instanceID": 31752
+            },
+            "unlockCharacter": {
+              "name": "Unlock",
+              "instanceID": 35668
+            },
+            "skipAd": {
+              "name": "Skip",
+              "instanceID": 33424
+            },
+            "simulateAd": {
+              "name": "SimulateCompleted",
+              "instanceID": 32394
+            },
+            "weaponReward": {
+              "name": "WeaponReward",
+              "instanceID": 34738
+            },
+            "chapters": [
+              {
+                "name": "Chapter1",
+                "instanceID": 33110
+              },
+              {
+                "name": "Chapter2",
+                "instanceID": 33374
+              },
+              {
+                "name": "Chapter3",
+                "instanceID": 33488
+              }
+            ],
+            "characterButtons": [
+              {
+                "name": "Character0",
+                "instanceID": 33166
+              },
+              {
+                "name": "Character1",
+                "instanceID": 34758
+              },
+              {
+                "name": "Character2",
+                "instanceID": 33028
+              },
+              {
+                "name": "Character3",
+                "instanceID": 33302
+              },
+              {
+                "name": "Character4",
+                "instanceID": 34558
+              },
+              {
+                "name": "Character5",
+                "instanceID": 32462
+              },
+              {
+                "name": "Character_baka",
+                "instanceID": 31960
+              },
+              {
+                "name": "Character_mike",
+                "instanceID": 32986
+              },
+              {
+                "name": "Character_mona",
+                "instanceID": 32376
+              },
+              {
+                "name": "Character_ryan",
+                "instanceID": 35728
+              },
+              {
+                "name": "Character_stylized",
+                "instanceID": 34154
+              },
+              {
+                "name": "Character_tactical",
+                "instanceID": 34864
+              }
+            ],
+            "chapterMenu": {
+              "name": "ChapterPanel",
+              "instanceID": 35838
+            },
+            "chapterSelectButton": {
+              "name": "ChooseChapters",
+              "instanceID": 36112
+            },
+            "tacticalPrototypeButton": {
+              "name": "TacticalPrototype",
+              "instanceID": 35112
+            },
+            "sceneLoader": {
+              "name": "BeachLobbyUI",
+              "instanceID": 31712
+            },
+            "soundscape": {
+              "name": "Coastal Soundscape",
+              "instanceID": 35848
+            },
+            "heroPortrait": {
+              "name": "HeroPortrait",
+              "instanceID": 33080
+            },
+            "heroName": {
+              "name": "Welcome",
+              "instanceID": 34116
+            },
+            "supportButton": {
+              "name": "SupportAuthor",
+              "instanceID": 35520
+            },
+            "exitButton": {
+              "name": "ExitGame",
+              "instanceID": 32330
+            },
+            "confirmExit": {
+              "name": "Confirm",
+              "instanceID": 35192
+            },
+            "cancelExit": {
+              "name": "Cancel",
+              "instanceID": 31788
+            },
+            "exitPanel": {
+              "name": "ExitPanel",
+              "instanceID": 35816
+            },
+            "exitDetail": {
+              "name": "Detail",
+              "instanceID": 31818
+            },
+            "characterScroll": {
+              "name": "Roster",
+              "instanceID": 32158
+            },
+            "resumePanel": {
+              "name": "ResumePanel",
+              "instanceID": 32348
+            },
+            "checkpointDetail": {
+              "name": "Detail",
+              "instanceID": 34136
+            },
+            "continueChapter": {
+              "name": "Continue",
+              "instanceID": 34074
+            },
+            "restartChapter": {
+              "name": "Restart",
+              "instanceID": 34342
+            },
+            "cancelContinue": {
+              "name": "Cancel",
+              "instanceID": 32612
+            },
+            "buildVersionLabel": {
+              "name": "CampTag",
+              "instanceID": 35760
+            },
+            "characterInfo": {
+              "name": "CharacterInfo",
+              "instanceID": 32258
+            },
+            "characterProfile": {
+              "name": "BeachLobbyUI",
+              "instanceID": 31716
+            }
+          }
+        }
+      },
+      "isError": false
+    },
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}}",
+    "outputTokens": 879
+  },
+  "console-old_mcp": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}"
+        }
+      ],
+      "structuredContent": {
+        "success": true,
+        "message": "Retrieved 0 log entries.",
+        "data": []
+      },
+      "isError": false
+    },
+    "semantic": [],
+    "rendered": "{\"success\":true,\"message\":\"Retrieved 0 log entries.\",\"data\":[]}",
+    "outputTokens": 16
+  },
+  "console-oneshot": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-daemon": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-shell": {
+    "response": [],
+    "semantic": [],
+    "rendered": "[]\n",
+    "outputTokens": 1
+  },
+  "console-stdio": {
+    "response": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[]"
+        }
+      ],
+      "structuredContent": {
+        "data": []
+      },
+      "isError": false
+    },
+    "semantic": [],
+    "rendered": "[]",
+    "outputTokens": 1
+  },
+  "four_fields-old_mcp": {
+    "semantic": {
+      "gameObjectID": 31696,
+      "gameObjectName": "BeachLobbyUI",
+      "component": {
+        "typeName": "BeachMainMenu",
+        "instanceID": 31700,
+        "properties": {
+          "Profile": {
+            "unlockedChapter": 1,
+            "selectedCharacter": "casual",
+            "controls": [],
+            "mouseSensitivity": 1.0,
+            "touchSensitivity": 1.0,
+            "aimSensitivity": 0.75,
+            "invertLookY": false,
+            "dualFire": false,
+            "tutorialCompleted": false,
+            "musicVolume": 0.550000011920929,
+            "effectsVolume": 0.800000011920929,
+            "checkpoints": [],
+            "NeedsOwnershipMigration": false
+          },
+          "Progress": null,
+          "Characters": "Assets/Gameplay/BeachCharacters.asset",
+          "characters": "Assets/Gameplay/BeachCharacters.asset",
+          "ads": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31698
+          },
+          "layoutEditor": {
+            "name": "ControlLayoutPanel",
+            "instanceID": 31636
+          },
+          "home": {
+            "name": "Home",
+            "instanceID": 35330
+          },
+          "characterPanel": {
+            "name": "CharacterPanel",
+            "instanceID": 34664
+          },
+          "adPanel": {
+            "name": "AdPlaceholderPanel",
+            "instanceID": 34534
+          },
+          "wallet": {
+            "name": "Wallet",
+            "instanceID": 33628
+          },
+          "chapterDetail": {
+            "name": "ChapterDetail",
+            "instanceID": 33154
+          },
+          "status": {
+            "name": "SaveStatus",
+            "instanceID": 34200
+          },
+          "characterDetail": {
+            "name": "Detail",
+            "instanceID": 33948
+          },
+          "adDetail": {
+            "name": "Detail",
+            "instanceID": 34784
+          },
+          "startButton": {
+            "name": "StartGame",
+            "instanceID": 33672
+          },
+          "layoutButton": {
+            "name": "Controls",
+            "instanceID": 35040
+          },
+          "charactersButton": {
+            "name": "Characters",
+            "instanceID": 31856
+          },
+          "closeCharacters": {
+            "name": "Close",
+            "instanceID": 31752
+          },
+          "unlockCharacter": {
+            "name": "Unlock",
+            "instanceID": 35668
+          },
+          "skipAd": {
+            "name": "Skip",
+            "instanceID": 33424
+          },
+          "simulateAd": {
+            "name": "SimulateCompleted",
+            "instanceID": 32394
+          },
+          "weaponReward": {
+            "name": "WeaponReward",
+            "instanceID": 34738
+          },
+          "chapters": [
+            {
+              "name": "Chapter1",
+              "instanceID": 33110
+            },
+            {
+              "name": "Chapter2",
+              "instanceID": 33374
+            },
+            {
+              "name": "Chapter3",
+              "instanceID": 33488
+            }
+          ],
+          "characterButtons": [
+            {
+              "name": "Character0",
+              "instanceID": 33166
+            },
+            {
+              "name": "Character1",
+              "instanceID": 34758
+            },
+            {
+              "name": "Character2",
+              "instanceID": 33028
+            },
+            {
+              "name": "Character3",
+              "instanceID": 33302
+            },
+            {
+              "name": "Character4",
+              "instanceID": 34558
+            },
+            {
+              "name": "Character5",
+              "instanceID": 32462
+            },
+            {
+              "name": "Character_baka",
+              "instanceID": 31960
+            },
+            {
+              "name": "Character_mike",
+              "instanceID": 32986
+            },
+            {
+              "name": "Character_mona",
+              "instanceID": 32376
+            },
+            {
+              "name": "Character_ryan",
+              "instanceID": 35728
+            },
+            {
+              "name": "Character_stylized",
+              "instanceID": 34154
+            },
+            {
+              "name": "Character_tactical",
+              "instanceID": 34864
+            }
+          ],
+          "chapterMenu": {
+            "name": "ChapterPanel",
+            "instanceID": 35838
+          },
+          "chapterSelectButton": {
+            "name": "ChooseChapters",
+            "instanceID": 36112
+          },
+          "tacticalPrototypeButton": {
+            "name": "TacticalPrototype",
+            "instanceID": 35112
+          },
+          "sceneLoader": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31712
+          },
+          "soundscape": {
+            "name": "Coastal Soundscape",
+            "instanceID": 35848
+          },
+          "heroPortrait": {
+            "name": "HeroPortrait",
+            "instanceID": 33080
+          },
+          "heroName": {
+            "name": "Welcome",
+            "instanceID": 34116
+          },
+          "supportButton": {
+            "name": "SupportAuthor",
+            "instanceID": 35520
+          },
+          "exitButton": {
+            "name": "ExitGame",
+            "instanceID": 32330
+          },
+          "confirmExit": {
+            "name": "Confirm",
+            "instanceID": 35192
+          },
+          "cancelExit": {
+            "name": "Cancel",
+            "instanceID": 31788
+          },
+          "exitPanel": {
+            "name": "ExitPanel",
+            "instanceID": 35816
+          },
+          "exitDetail": {
+            "name": "Detail",
+            "instanceID": 31818
+          },
+          "characterScroll": {
+            "name": "Roster",
+            "instanceID": 32158
+          },
+          "resumePanel": {
+            "name": "ResumePanel",
+            "instanceID": 32348
+          },
+          "checkpointDetail": {
+            "name": "Detail",
+            "instanceID": 34136
+          },
+          "continueChapter": {
+            "name": "Continue",
+            "instanceID": 34074
+          },
+          "restartChapter": {
+            "name": "Restart",
+            "instanceID": 34342
+          },
+          "cancelContinue": {
+            "name": "Cancel",
+            "instanceID": 32612
+          },
+          "buildVersionLabel": {
+            "name": "CampTag",
+            "instanceID": 35760
+          },
+          "characterInfo": {
+            "name": "CharacterInfo",
+            "instanceID": 32258
+          },
+          "characterProfile": {
+            "name": "BeachLobbyUI",
+            "instanceID": 31716
+          }
+        }
+      }
+    },
+    "rendered": "{\"success\":true,\"message\":null,\"error\":null,\"data\":{\"gameObjectID\":31696,\"gameObjectName\":\"BeachLobbyUI\",\"component\":{\"typeName\":\"BeachMainMenu\",\"instanceID\":31700,\"properties\":{\"Profile\":{\"unlockedChapter\":1,\"selectedCharacter\":\"casual\",\"controls\":[],\"mouseSensitivity\":1.0,\"touchSensitivity\":1.0,\"aimSensitivity\":0.75,\"invertLookY\":false,\"dualFire\":false,\"tutorialCompleted\":false,\"musicVolume\":0.550000011920929,\"effectsVolume\":0.800000011920929,\"checkpoints\":[],\"NeedsOwnershipMigration\":false},\"Progress\":null,\"Characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"characters\":\"Assets/Gameplay/BeachCharacters.asset\",\"ads\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31698},\"layoutEditor\":{\"name\":\"ControlLayoutPanel\",\"instanceID\":31636},\"home\":{\"name\":\"Home\",\"instanceID\":35330},\"characterPanel\":{\"name\":\"CharacterPanel\",\"instanceID\":34664},\"adPanel\":{\"name\":\"AdPlaceholderPanel\",\"instanceID\":34534},\"wallet\":{\"name\":\"Wallet\",\"instanceID\":33628},\"chapterDetail\":{\"name\":\"ChapterDetail\",\"instanceID\":33154},\"status\":{\"name\":\"SaveStatus\",\"instanceID\":34200},\"characterDetail\":{\"name\":\"Detail\",\"instanceID\":33948},\"adDetail\":{\"name\":\"Detail\",\"instanceID\":34784},\"startButton\":{\"name\":\"StartGame\",\"instanceID\":33672},\"layoutButton\":{\"name\":\"Controls\",\"instanceID\":35040},\"charactersButton\":{\"name\":\"Characters\",\"instanceID\":31856},\"closeCharacters\":{\"name\":\"Close\",\"instanceID\":31752},\"unlockCharacter\":{\"name\":\"Unlock\",\"instanceID\":35668},\"skipAd\":{\"name\":\"Skip\",\"instanceID\":33424},\"simulateAd\":{\"name\":\"SimulateCompleted\",\"instanceID\":32394},\"weaponReward\":{\"name\":\"WeaponReward\",\"instanceID\":34738},\"chapters\":[{\"name\":\"Chapter1\",\"instanceID\":33110},{\"name\":\"Chapter2\",\"instanceID\":33374},{\"name\":\"Chapter3\",\"instanceID\":33488}],\"characterButtons\":[{\"name\":\"Character0\",\"instanceID\":33166},{\"name\":\"Character1\",\"instanceID\":34758},{\"name\":\"Character2\",\"instanceID\":33028},{\"name\":\"Character3\",\"instanceID\":33302},{\"name\":\"Character4\",\"instanceID\":34558},{\"name\":\"Character5\",\"instanceID\":32462},{\"name\":\"Character_baka\",\"instanceID\":31960},{\"name\":\"Character_mike\",\"instanceID\":32986},{\"name\":\"Character_mona\",\"instanceID\":32376},{\"name\":\"Character_ryan\",\"instanceID\":35728},{\"name\":\"Character_stylized\",\"instanceID\":34154},{\"name\":\"Character_tactical\",\"instanceID\":34864}],\"chapterMenu\":{\"name\":\"ChapterPanel\",\"instanceID\":35838},\"chapterSelectButton\":{\"name\":\"ChooseChapters\",\"instanceID\":36112},\"tacticalPrototypeButton\":{\"name\":\"TacticalPrototype\",\"instanceID\":35112},\"sceneLoader\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31712},\"soundscape\":{\"name\":\"Coastal Soundscape\",\"instanceID\":35848},\"heroPortrait\":{\"name\":\"HeroPortrait\",\"instanceID\":33080},\"heroName\":{\"name\":\"Welcome\",\"instanceID\":34116},\"supportButton\":{\"name\":\"SupportAuthor\",\"instanceID\":35520},\"exitButton\":{\"name\":\"ExitGame\",\"instanceID\":32330},\"confirmExit\":{\"name\":\"Confirm\",\"instanceID\":35192},\"cancelExit\":{\"name\":\"Cancel\",\"instanceID\":31788},\"exitPanel\":{\"name\":\"ExitPanel\",\"instanceID\":35816},\"exitDetail\":{\"name\":\"Detail\",\"instanceID\":31818},\"characterScroll\":{\"name\":\"Roster\",\"instanceID\":32158},\"resumePanel\":{\"name\":\"ResumePanel\",\"instanceID\":32348},\"checkpointDetail\":{\"name\":\"Detail\",\"instanceID\":34136},\"continueChapter\":{\"name\":\"Continue\",\"instanceID\":34074},\"restartChapter\":{\"name\":\"Restart\",\"instanceID\":34342},\"cancelContinue\":{\"name\":\"Cancel\",\"instanceID\":32612},\"buildVersionLabel\":{\"name\":\"CampTag\",\"instanceID\":35760},\"characterInfo\":{\"name\":\"CharacterInfo\",\"instanceID\":32258},\"characterProfile\":{\"name\":\"BeachLobbyUI\",\"instanceID\":31716}}}},\"hint\":null}",
+    "outputTokens": 898
+  },
+  "four_fields-projected_stdio": {
+    "semantic": {
+      "id": 31700,
+      "type": "BeachMainMenu",
+      "fields": {
+        "characters": {
+          "id": 31450,
+          "name": "BeachCharacters",
+          "asset": "Assets/Gameplay/BeachCharacters.asset"
+        },
+        "startButton": {
+          "id": 33672,
+          "name": "StartGame",
+          "asset": ""
+        },
+        "chapterMenu": {
+          "id": 35838,
+          "name": "ChapterPanel",
+          "asset": ""
+        },
+        "resumePanel": {
+          "id": 32348,
+          "name": "ResumePanel",
+          "asset": ""
+        }
+      },
+      "truncated": false
+    },
+    "rendered": "{\"id\":31700,\"type\":\"BeachMainMenu\",\"fields\":{\"characters\":{\"id\":31450,\"name\":\"BeachCharacters\",\"asset\":\"Assets/Gameplay/BeachCharacters.asset\"},\"startButton\":{\"id\":33672,\"name\":\"StartGame\",\"asset\":\"\"},\"chapterMenu\":{\"id\":35838,\"name\":\"ChapterPanel\",\"asset\":\"\"},\"resumePanel\":{\"id\":32348,\"name\":\"ResumePanel\",\"asset\":\"\"}},\"truncated\":false}",
+    "outputTokens": 94
+  }
+}

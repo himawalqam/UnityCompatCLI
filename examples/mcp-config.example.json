@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "unity-compat": {
+      "command": "D:\\Tools\\UnityCompatCLI\\ucl.exe",
+      "args": ["mcp", "--project", "D:\\UnityProjects\\MyGame", "--profile", "compact"]
+    }
+  }
+}

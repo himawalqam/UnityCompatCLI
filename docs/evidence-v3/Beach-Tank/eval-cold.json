@@ -1,0 +1,44 @@
+{
+  "firstWallMs": 2390.6860999995843,
+  "first": {
+    "result": {
+      "version": "2022.3.62f3c1",
+      "roots": 5
+    },
+    "compiler": "roslyn-3.8-relocated",
+    "cacheHit": false,
+    "compileMs": 2246.2827,
+    "elapsedMs": 2252.3948,
+    "logs": [],
+    "session": "3bd84133071d4ec5ac71921d342d18c1",
+    "trust": "local-editor-full-trust",
+    "uniqueSnippets": 1
+  },
+  "newSnippets": [
+    {
+      "wallMs": 113.42549999244511,
+      "compileMs": 21.4253,
+      "cacheHit": false
+    },
+    {
+      "wallMs": 93.35980005562305,
+      "compileMs": 16.9629,
+      "cacheHit": false
+    },
+    {
+      "wallMs": 128.4802999580279,
+      "compileMs": 37.9284,
+      "cacheHit": false
+    },
+    {
+      "wallMs": 101.6057999804616,
+      "compileMs": 44.2552,
+      "cacheHit": false
+    },
+    {
+      "wallMs": 101.19900002609938,
+      "compileMs": 45.2135,
+      "cacheHit": false
+    }
+  ]
+}
